@@ -369,3 +369,7 @@ html[lang="ar"] p, html[lang="ar"] li { line-height: 1.9; }
 }
 [dir="rtl"] .slide-shade { background: linear-gradient(270deg, rgba(8,12,16,.88) 0%, rgba(8,12,16,.6) 40%, rgba(8,12,16,0) 72%); }
 [dir="rtl"] .page-hero.has-img::before { background: linear-gradient(270deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.88) 45%, rgba(255,255,255,.15) 100%); }
+
+/* Accueil : phrase d'accroche « À propos » sur une seule ligne (ordinateur) */
+.h2.h2-line { font-size: clamp(22px, 2.35vw, 34px); }
+@media (min-width: 901px) { .h2.h2-line { white-space: nowrap; } }
