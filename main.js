@@ -171,6 +171,33 @@
       .catch(function () {});
   }
 
+
+  // ---- Agrandissement des images marquées data-zoom ----
+  var zooms = document.querySelectorAll('img[data-zoom]');
+  if (zooms.length) {
+    var zb = document.getElementById('lightbox');
+    if (!zb) {
+      zb = document.createElement('dialog');
+      zb.className = 'lightbox'; zb.id = 'lightbox';
+      zb.innerHTML = '<button type="button" class="lb-close" aria-label="Fermer">×</button><div class="lb-media"></div><h3></h3><p class="lb-desc"></p>';
+      document.body.appendChild(zb);
+      zb.querySelector('.lb-close').addEventListener('click', function () { zb.close(); });
+      zb.addEventListener('click', function (e) { if (e.target === zb) zb.close(); });
+    }
+    zooms.forEach(function (img) {
+      img.tabIndex = 0;
+      function open() {
+        var m = zb.querySelector('.lb-media'); m.innerHTML = '';
+        var big = document.createElement('img'); big.src = img.currentSrc || img.src; big.alt = img.alt; m.appendChild(big);
+        zb.querySelector('h3').textContent = '';
+        zb.querySelector('.lb-desc').textContent = img.alt;
+        if (zb.showModal) zb.showModal(); else zb.setAttribute('open', '');
+      }
+      img.addEventListener('click', open);
+      img.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
+    });
+  }
+
   var y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 })();
