@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Solutions — Séfar Système</title>
-<meta name="description" content="Automatisation des postes, intégration IEC 61850, tableaux MT et BT, supervision SCADA, télécoms industrielles et énergies renouvelables.">
+<meta name="description" content="Contrôle-commande numérique des postes, intégration IEC 61850, protections et rétrofit Sepam, tableaux MT et BT, supervision SCADA, télécoms industrielles, génie civil et réseaux, énergies renouvelables.">
 <meta property="og:title" content="Solutions — Séfar Système">
-<meta property="og:description" content="Automatisation des postes, intégration IEC 61850, tableaux MT et BT, supervision SCADA, télécoms industrielles et énergies renouvelables.">
+<meta property="og:description" content="Contrôle-commande numérique des postes, intégration IEC 61850, protections et rétrofit Sepam, tableaux MT et BT, supervision SCADA, télécoms industrielles, génie civil et réseaux, énergies renouvelables.">
 <meta property="og:image" content="/images/slide-infrastructures.jpg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="stylesheet" href="/styles.css">
@@ -43,41 +43,150 @@
     <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> / <span>Solutions</span></nav>
     <span class="kicker">Nos solutions</span>
     <h1>Du poste électrique au centre de conduite</h1>
-    <p>Ingénierie, fourniture, intégration et mise en service : un seul interlocuteur pour l'ensemble de la chaîne électrique et numérique.</p>
+    <p>Ingénierie, fourniture, intégration, essais et mise en service : un seul interlocuteur pour l'ensemble de la chaîne électrique et numérique d'un poste.</p>
+    <nav class="sol-index" aria-label="Accès rapide aux solutions">
+      <a href="#automatisation">Contrôle-commande</a><a href="#iec61850">IEC 61850</a><a href="#protections">Protections</a><a href="#tableaux">Tableaux MT/BT</a><a href="#scada">Supervision</a><a href="#telecoms">Télécoms</a><a href="#genie-civil">Génie civil et réseaux</a><a href="#renouvelables">Renouvelables</a>
+    </nav>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap content sol-list">
-    <article id="automatisation" class="sol">
-      <h2>Automatisation des postes</h2>
-      <p>Systèmes de contrôle-commande numérique (CCN) pour postes HT/MT : architecture, unités de travée, calculateur de poste, IHM locale, paramétrage, essais et mise en service.</p>
-      <p class="todo">[À enrichir : gammes d'équipements, exemples de postes.]</p>
+  <div class="wrap sol-list">
+
+    <article id="automatisation" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">01</span>
+        <h2>Contrôle-commande numérique des postes</h2>
+        <p>Le contrôle-commande numérique (CCN) remplace les tableaux de commande à relais et à câblage filaire par une architecture informatique industrielle : chaque travée est pilotée par son relais numérique, et l'ensemble du poste est conduit depuis une IHM locale ou depuis le centre de conduite.</p>
+        <ul class="ticks">
+          <li>Étude d'architecture et dossier d'exécution</li>
+          <li>Armoires CCN : RTU MiCOM C264, PC industriel, IHM tactile, switchs redondants</li>
+          <li>Unité de tranche générale : entrées/sorties TOR, télémesures, télécommandes</li>
+          <li>Synchronisation horaire du poste par serveur GPS (NTP / IEC 61588)</li>
+          <li>Essais en plateforme puis sur site, mise en service et formation des exploitants</li>
+        </ul>
+      </div>
+      <figure class="sol-media"><img src="/images/references/armoire-ccn.jpg" alt="Armoire de contrôle-commande numérique : PC industriel, IHM tactile, calculateur MiCOM et switchs" data-zoom loading="lazy"></figure>
     </article>
-    <article id="iec61850" class="sol">
-      <h2>Intégration IEC 61850</h2>
-      <p>Ingénierie SCL, messages GOOSE et MMS, Sampled Values, interopérabilité entre équipements de protection de différents constructeurs et essais d'intégration.</p>
-      <p class="todo">[À enrichir : outils d'ingénierie, constructeurs intégrés.]</p>
+
+    <article id="iec61850" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">02</span>
+        <h2>Intégration IEC 61850</h2>
+        <p>La norme IEC 61850 permet aux équipements de protection et de contrôle-commande d'échanger leurs informations sur un réseau Ethernet commun. Nous assurons l'ingénierie complète du poste numérique, de la configuration des équipements jusqu'aux essais d'interopérabilité.</p>
+        <ul class="ticks">
+          <li>Ingénierie des fichiers SCL : SCD, ICD, CID</li>
+          <li>Messages GOOSE pour les automatismes et interverrouillages entre travées</li>
+          <li>Rapports MMS vers l'IHM, le calculateur et la passerelle de téléconduite</li>
+          <li>Réseau fibre optique redondant entre relais et switchs</li>
+          <li>Essais d'interopérabilité entre équipements de plusieurs constructeurs</li>
+        </ul>
+      </div>
+      <figure class="sol-media"><img src="/images/references/architecture-ccn.jpg" alt="Architecture d'un système de contrôle-commande numérique en IEC 61850" data-zoom loading="lazy"></figure>
     </article>
-    <article id="tableaux" class="sol">
-      <h2>Tableaux MT et BT</h2>
-      <p>Fourniture, montage et raccordement de tableaux moyenne tension 30 kV / 10 kV (arrivées, départs, couplage, remontée de barre, mesure) et d'armoires basse tension.</p>
-      <p class="todo">[À enrichir : gammes de cellules, caractéristiques.]</p>
+
+    <article id="protections" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">03</span>
+        <h2>Protections et rétrofit</h2>
+        <p>Les relais de protection sont le cœur de la sûreté d'un poste. Nous les choisissons, les réglons et les essayons, et nous modernisons les protections existantes sans remplacer les cellules, grâce à des solutions de rétrofit adaptées.</p>
+        <ul class="ticks">
+          <li>Plans de protection et calcul des réglages</li>
+          <li>Rétrofit Sepam 2000 vers Sepam 80 avec caisson d'adaptation « plug and play »</li>
+          <li>Protections de lignes, transformateurs, jeux de barres et départs</li>
+          <li>Essais par injection secondaire avec valise de test</li>
+          <li>Procès-verbaux d'essais et réception avec l'exploitant</li>
+        </ul>
+      </div>
+      <figure class="sol-media"><img src="/images/references/sepam-80-caisson.jpg" alt="Relais Sepam 80 dans son caisson d'adaptation" data-zoom loading="lazy"></figure>
     </article>
-    <article id="scada" class="sol">
-      <h2>Supervision et SCADA</h2>
-      <p>Postes opérateurs, IHM et téléconduite (IEC 60870-5-104, DNP3, Modbus) pour suivre l'état du réseau et intervenir en temps réel.</p>
-      <p class="todo">[À enrichir : logiciels de supervision, exemples d'écrans.]</p>
+
+    <article id="tableaux" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">04</span>
+        <h2>Tableaux MT et BT</h2>
+        <p>Nous fournissons, montons et raccordons les tableaux moyenne tension 30 kV et 10 kV des postes primaires, ainsi que les armoires basse tension et les services auxiliaires qui les accompagnent.</p>
+        <ul class="ticks">
+          <li>Cellules arrivée, départ, couplage, remontée de barre, TSA et mesure</li>
+          <li>Rénovation de tableaux HTA en maintenant la continuité de service</li>
+          <li>Services auxiliaires : redresseurs-chargeurs, batteries, tableaux continu et alternatif</li>
+          <li>Raccordement des câbles HTA et essais diélectriques</li>
+          <li>Mise en service coordonnée avec l'exploitant</li>
+        </ul>
+      </div>
+      <figure class="sol-media"><img src="/images/references/cellules-hta.jpg" alt="Tableau de cellules HTA" data-zoom loading="lazy"></figure>
     </article>
-    <article id="telecoms" class="sol">
-      <h2>Télécoms industrielles</h2>
-      <p>Réseaux fibre optique, commutateurs industriels, redondance PRP/HSR, convertisseurs série RS-485 et liaisons vers le centre de conduite.</p>
-      <p class="todo">[À enrichir : architectures types.]</p>
+
+    <article id="scada" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">05</span>
+        <h2>Supervision et téléconduite</h2>
+        <p>L'exploitant doit voir l'état de son réseau et agir en temps réel. Nous mettons en place les IHM de poste et les liaisons de téléconduite qui remontent les informations vers le centre de conduite.</p>
+        <ul class="ticks">
+          <li>IHM de poste : synoptiques, alarmes, mesures, historiques et rapports</li>
+          <li>Passerelles de téléconduite IEC 60870-5-104 vers le SCADA</li>
+          <li>Intégration de protocoles DNP3 et Modbus</li>
+          <li>Base de données de téléconduite et essais point à point avec le centre de conduite</li>
+        </ul>
+      </div>
+      <figure class="sol-media"><img src="/images/slide-digital.jpg" alt="Postes opérateurs de supervision d'un réseau électrique" data-zoom loading="lazy"></figure>
     </article>
-    <article id="renouvelables" class="sol">
-      <h2>Énergies renouvelables</h2>
-      <p>Études, intégration et raccordement de centrales photovoltaïques et de solutions de stockage d'énergie. <a href="/energies-du-futur.html">Voir Énergies du futur →</a></p>
+
+    <article id="telecoms" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">06</span>
+        <h2>Télécoms industrielles</h2>
+        <p>Un poste numérique repose sur un réseau de communication fiable. Nous concevons et installons les liaisons qui relient les équipements entre eux et le poste au reste du réseau.</p>
+        <ul class="ticks">
+          <li>Réseaux fibre optique et coffrets de raccordement</li>
+          <li>Switchs industriels et redondance PRP / HSR</li>
+          <li>Convertisseurs fibre / RS-485 pour les équipements série</li>
+          <li>Liaisons vers les postes déportés et le centre de conduite</li>
+          <li>Segmentation des réseaux et durcissement des accès (cybersécurité OT)</li>
+        </ul>
+      </div>
+      <figure class="sol-media sol-icon" aria-hidden="true">
+        <svg viewBox="0 0 400 260"><rect width="400" height="260" fill="#F4F5F6"/>
+          <g stroke="#1F5FAD" stroke-width="3" fill="none"><path d="M70 130 H330"/><path d="M200 130 V60 M200 130 V200"/></g>
+          <g stroke="#F07A2B" stroke-width="3" fill="none" stroke-dasharray="8 6"><path d="M70 130 C70 60 200 40 200 60"/><path d="M330 130 C330 200 200 220 200 200"/></g>
+          <g fill="#FFFFFF" stroke="#1A2024" stroke-width="2.5"><rect x="40" y="112" width="60" height="36" rx="4"/><rect x="300" y="112" width="60" height="36" rx="4"/><rect x="170" y="42" width="60" height="36" rx="4"/><rect x="170" y="182" width="60" height="36" rx="4"/></g>
+          <g fill="#F07A2B"><circle cx="55" cy="130" r="4"/><circle cx="70" cy="130" r="4"/><circle cx="85" cy="130" r="4"/><circle cx="315" cy="130" r="4"/><circle cx="330" cy="130" r="4"/><circle cx="345" cy="130" r="4"/><circle cx="200" cy="60" r="4"/><circle cx="200" cy="200" r="4"/></g>
+        </svg>
+      </figure>
     </article>
+
+    <article id="genie-civil" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">07</span>
+        <h2>Génie civil et réseaux MT/BT</h2>
+        <p>Qualifiés en catégorie VI pour le bâtiment et les travaux publics, nous réalisons aussi les ouvrages de génie civil et les réseaux de câbles qui accompagnent les postes électriques.</p>
+        <ul class="ticks">
+          <li>Caniveaux de câbles : coffrage, ferraillage et bétonnage</li>
+          <li>Tranchées, pose de fourreaux et tirage de câbles MT et BT</li>
+          <li>Déplacement de départs HTA avec continuité de service</li>
+          <li>Postes de distribution : génie civil et équipements</li>
+          <li>Ouvrages de distribution d'électricité de type D pour Sonelgaz-Distribution</li>
+        </ul>
+      </div>
+      <figure class="sol-media"><img src="/images/references/genie-civil-reseaux.jpg" alt="Pose de câbles en caniveau, fourreaux, coffrage de caniveau, tranchée de câbles et poste de distribution" data-zoom loading="lazy"></figure>
+    </article>
+
+    <article id="renouvelables" class="sol sol-rich">
+      <div class="sol-text">
+        <span class="ref-num">08</span>
+        <h2>Énergies renouvelables</h2>
+        <p>Une centrale solaire ou un système de stockage n'a de valeur que s'il est bien raccordé, protégé et supervisé. Nous appliquons notre savoir-faire des postes électriques aux nouvelles sources d'énergie.</p>
+        <ul class="ticks">
+          <li>Postes de livraison et de raccordement au réseau</li>
+          <li>Protections de découplage et comptage</li>
+          <li>Supervision de la centrale et téléconduite</li>
+          <li>Intégration de solutions de stockage d'énergie</li>
+        </ul>
+        <a class="more-link" href="/energies-du-futur.html">Voir Énergies du futur →</a>
+      </div>
+      <figure class="sol-media"><img src="/images/slide-energies.jpg" alt="Centrale photovoltaïque raccordée à un poste électrique" data-zoom loading="lazy"></figure>
+    </article>
+
   </div>
 </section>
 </main>
