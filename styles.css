@@ -31,7 +31,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--orange); outlin
 .arrow { width: 16px; height: 16px; flex: none; }
 
 /* En-tête */
-.header { background: #FFFFFF; border-bottom: 1px solid var(--line); box-shadow: 0 2px 12px rgba(17,23,27,.05); position: sticky; top: 0; z-index: 50; }
+.header { background: #FFFFFF; border-bottom: 4px solid var(--orange); box-shadow: 0 2px 12px rgba(17,23,27,.05); position: sticky; top: 0; z-index: 50; }
 .header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 4px 6px; }
 .brand { display: flex; align-items: center; gap: 18px; }
 .brand img { height: 92px; width: auto; }
