@@ -16,8 +16,8 @@
   }
 
   // ---- Carrousel ----
-  // Défilement automatique toutes les 3 secondes, sans pause au survol
-  var DUREE = 3000;
+  // Défilement automatique toutes les 2 secondes, sans pause au survol
+  var DUREE = 2000;
   var slides = document.querySelectorAll('.slide');
   var tabs = document.querySelectorAll('.tab');
   var current = 0, elapsed = 0, last = null;
