@@ -318,3 +318,4 @@ img[data-zoom] { cursor: zoom-in; }
 .ticks li { position: relative; padding-left: 26px; font-size: 15px; line-height: 1.55; color: var(--ink-soft); }
 .ticks li::before { content: ""; position: absolute; left: 0; top: 6px; width: 14px; height: 8px; border-left: 2.5px solid var(--orange); border-bottom: 2.5px solid var(--orange); transform: rotate(-45deg); }
 .more-link { font-weight: 700; color: var(--orange-text); }
+.sol-media.sol-contain img { object-fit: contain; background: #FFFFFF; }
