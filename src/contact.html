@@ -1,0 +1,47 @@
+<!--{"title": "Contact — Séfar Système", "description": "Contacter Séfar Système : 7 rue Ahmed Kara, Djenane El Malik, Hydra, Alger. Tél. / Fax : 028 10 31 32.", "nav": "contact"}-->
+<main>
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> / <span>Contact</span></nav>
+    <span class="kicker">Contact</span>
+    <h1>Parlons de votre projet</h1>
+    <p>Décrivez votre besoin : nos ingénieurs vous répondent rapidement.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap content">
+    <div class="two-col">
+      <div class="stack contact-info">
+        <span class="eyebrow">Coordonnées</span>
+        <p><strong>Séfar Système SARL</strong><br>7 rue Ahmed Kara, Djenane El Malik<br>Hydra, Alger, Algérie</p>
+        <p>Tél. / Fax : <a href="tel:+21328103132">028 10 31 32</a></p>
+      </div>
+      <form class="form" name="contact" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="site-web">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hp"><label>Ne pas remplir : <input name="site-web"></label></p>
+        <div class="row">
+          <label for="nom">Nom et prénom *<input id="nom" name="nom" required autocomplete="name"></label>
+          <label for="societe">Société<input id="societe" name="societe" autocomplete="organization"></label>
+        </div>
+        <div class="row">
+          <label for="email">E-mail *<input id="email" name="email" type="email" required autocomplete="email"></label>
+          <label for="tel">Téléphone<input id="tel" name="telephone" type="tel" autocomplete="tel"></label>
+        </div>
+        <label for="sujet">Objet
+          <select id="sujet" name="objet">
+            <option>Demande d'étude ou de devis</option>
+            <option>Assistance technique</option>
+            <option>Partenariat</option>
+            <option>Candidature</option>
+            <option>Autre</option>
+          </select>
+        </label>
+        <label for="message">Message *<textarea id="message" name="message" rows="6" required></textarea></label>
+        <p class="legal">Les informations envoyées servent uniquement à répondre à votre demande. <a href="/mentions-legales.html#confidentialite">Politique de confidentialité</a></p>
+        <button class="btn btn-orange" type="submit">Envoyer le message</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>

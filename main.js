@@ -16,12 +16,11 @@
   }
 
   // ---- Carrousel ----
-  var DUREE = 7000;
+  // Défilement automatique toutes les 4 secondes, sans pause au survol
+  var DUREE = 4000;
   var slides = document.querySelectorAll('.slide');
   var tabs = document.querySelectorAll('.tab');
-  var hero = document.querySelector('.hero');
-  var current = 0, elapsed = 0, paused = false, last = null;
-  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var current = 0, elapsed = 0, last = null;
 
   function show(n) {
     current = (n + slides.length) % slides.length;
@@ -40,12 +39,10 @@
   function tick(ts) {
     if (last === null) last = ts;
     var dt = ts - last; last = ts;
-    if (!paused && !reduceMotion) {
-      elapsed += dt;
-      if (elapsed >= DUREE) show(current + 1);
-      var fill = tabs[current] && tabs[current].querySelector('.tab-fill');
-      if (fill) fill.style.width = Math.min(100, elapsed / DUREE * 100) + '%';
-    }
+    elapsed += Math.min(dt, 250);
+    if (elapsed >= DUREE) show(current + 1);
+    var fill = tabs[current] && tabs[current].querySelector('.tab-fill');
+    if (fill) fill.style.width = Math.min(100, elapsed / DUREE * 100) + '%';
     requestAnimationFrame(tick);
   }
 
@@ -53,10 +50,6 @@
     tabs.forEach(function (t) { t.addEventListener('click', function () { show(+t.dataset.i); }); });
     document.querySelector('.hero .prev').addEventListener('click', function () { show(current - 1); });
     document.querySelector('.hero .next').addEventListener('click', function () { show(current + 1); });
-    hero.addEventListener('mouseenter', function () { paused = true; });
-    hero.addEventListener('mouseleave', function () { paused = false; });
-    hero.addEventListener('focusin', function () { paused = true; });
-    hero.addEventListener('focusout', function () { paused = false; });
     document.addEventListener('visibilitychange', function () { last = null; });
     show(0);
     requestAnimationFrame(tick);

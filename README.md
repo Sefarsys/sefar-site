@@ -11,6 +11,10 @@ Site statique (HTML, CSS, JavaScript) hébergé sur Netlify. Devise : *Reliable 
 - `data/veille.json` : fiches du bloc « Actualités du secteur »
 - `netlify.toml` : réglages Netlify
 
+## Pages
+
+Les pages sont écrites dans `src/` (contenu) et `partials/` (blocs réutilisables : schéma unifilaire, bandeau contact). L'en-tête et le pied de page communs sont dans `build.py`. Après une modification, lancer `python3 build.py` pour régénérer les fichiers `.html` à la racine.
+
 ## Mise en ligne
 
 Chaque modification poussée sur la branche `main` est publiée automatiquement par Netlify (environ une minute).
