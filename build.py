@@ -15,6 +15,7 @@ ROOT = pathlib.Path(__file__).parent
 SRC = ROOT / "src"
 
 NAV = [
+    ("home", "/", "Home"),
     ("solutions", "/solutions.html", "Solutions"),
     ("domaines", "/domaines-application.html", "Domaines d'application"),
     ("references", "/references.html", "Références"),
