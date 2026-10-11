@@ -2,32 +2,37 @@
   "miseAJour": "2026-10-10",
   "fiches": [
     {
+      "type": "salon",
+      "date": "13.10.2026",
+      "dateFin": "15.10.2026",
+      "source": "Algeria Exhibitions",
+      "titre": "Kahraba Expo 2026 : salon international de l'électricité et des énergies renouvelables, du 13 au 15 octobre à Alger",
+      "resume": "Au Palais des expositions des Pins Maritimes (pavillon Palestine), avec des conférences sur la stabilité des réseaux, les micro-réseaux, la digitalisation et la synchronisation horaire.",
+      "lien": "https://www.algeriaexhibitions.dz/en/events/KAHRABA-2026"
+    },
+    {
+      "type": "article",
+      "date": "05.10.2026",
+      "source": "CapMad",
+      "titre": "NAPEC 2026 à Oran : plus de 450 exposants autour de l'énergie et de l'hydrogène",
+      "resume": "La 14e édition s'est tenue du 5 au 7 octobre au centre des conventions d'Oran, autour de la combinaison des renouvelables et des ressources fossiles.",
+      "lien": "https://www.capmad.com/article/oran-plus-de-450-exposants-attendus-au-napec-2026"
+    },
+    {
+      "type": "article",
+      "date": "30.09.2026",
+      "source": "Algérie Eco",
+      "titre": "Sonelgaz lance un appel d'offres pour deux parcs éoliens de 100 MW à Laghouat et Djelfa",
+      "resume": "L'appel est ouvert aux entreprises nationales et étrangères. Les offres sont attendues au plus tard le 25 novembre 2026.",
+      "lien": "https://algerie-eco.com/2026/09/30/algerie-sonelgaz-lance-un-appel-doffres-pour-deux-fermes-eoliennes-de-100-mw-chacune/"
+    },
+    {
+      "type": "article",
       "date": "19.09.2026",
       "source": "WebManagerCenter",
       "titre": "Solaire et hydrogène : l'Algérie pourrait connaître la plus forte croissance renouvelable d'Afrique",
       "resume": "Une étude de marché place l'Algérie en tête sur 2026-2031. 400 MW solaires ont déjà été mis en service cette année.",
       "lien": "https://www.webmanagercenter.com/2026/09/19/573012/energie-solaire-et-hydrogene-la-percee-energetique-de-lalgerie/"
-    },
-    {
-      "date": "22.05.2026",
-      "source": "Algérie Eco",
-      "titre": "Environ 1 400 MW solaires raccordés au réseau d'ici fin 2026",
-      "resume": "Deux centrales de 200 MW sont entrées en service à El Meghaïer et Biskra. L'objectif national est de 15 GW renouvelables en 2035.",
-      "lien": "https://algerie-eco.com/?p=263030"
-    },
-    {
-      "date": "12.05.2026",
-      "source": "Digital Substation",
-      "titre": "Turquie : premier poste numérique pilote en IEC 61850 bus de process",
-      "resume": "Hitachi Energy et TEİAŞ ont mis en service une travée numérique qui fonctionne en parallèle d'une travée conventionnelle.",
-      "lien": "https://digitalsubstation.com/article/hitachi-energy-and-tea-commission-trkiyes-first-digital-substation-pilot"
-    },
-    {
-      "date": "13.04.2026",
-      "source": "Algérie 360",
-      "titre": "Été 2026 : Sonelgaz prévoit 644 postes MT/BT et 1 640 km de réseau",
-      "resume": "Le groupe se prépare à une pointe de plus de 22 000 MW, avec 58 nouveaux ouvrages de transport.",
-      "lien": "https://www.algerie360.com/ete-2026-sonelgaz-sort-le-grand-jeu-pour-securiser-lapprovisionnement-electrique/"
     }
   ]
 }

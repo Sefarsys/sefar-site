@@ -140,6 +140,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--orange); outlin
 .fiche p { margin: 0; font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
 .fiche .go { margin-top: auto; font-size: 13px; font-weight: 700; color: var(--orange-text); }
 .fiche:hover h3 { color: var(--orange-text); }
+.fiche.salon { border-top-color: var(--night); }
+.fiche .badge { align-self: flex-start; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; background: var(--night); color: #FFF; padding: 4px 8px; border-radius: 2px; }
 
 .cta-band { padding-bottom: 96px; }
 .cta-band .inner { background: var(--orange); color: var(--night); padding: 40px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; }
