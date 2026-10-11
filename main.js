@@ -16,8 +16,8 @@
   }
 
   // ---- Carrousel ----
-  // Défilement automatique toutes les 2 secondes, sans pause au survol
-  var DUREE = 2000;
+  // Défilement automatique toutes les 4 secondes, sans pause au survol
+  var DUREE = 4000;
   var slides = document.querySelectorAll('.slide');
   var tabs = document.querySelectorAll('.tab');
   var current = 0, elapsed = 0, last = null;
@@ -63,8 +63,18 @@
     return e;
   }
 
+  // Textes de la veille selon la langue de la page
+  var LANG = (document.documentElement.lang || 'fr').slice(0, 2);
+  var T = {
+    fr: { soon: 'La prochaine sélection arrive bientôt.', off: 'La veille est momentanément indisponible.', upcoming: 'Salon à venir', ongoing: 'Salon en cours', from: 'Du ', to: ' au ', read: 'Lire sur la source ↗' },
+    en: { soon: 'The next selection is coming soon.', off: 'News are temporarily unavailable.', upcoming: 'Upcoming trade fair', ongoing: 'Trade fair in progress', from: 'From ', to: ' to ', read: 'Read on the source ↗' },
+    ar: { soon: 'الاختيار القادم قريبًا.', off: 'الأخبار غير متاحة مؤقتًا.', upcoming: 'معرض قادم', ongoing: 'معرض جارٍ', from: 'من ', to: ' إلى ', read: 'اقرأ في المصدر ↗' }
+  }[LANG] || null;
+  if (!T) T = { soon: '', off: '', upcoming: '', ongoing: '', from: '', to: '', read: '' };
+
   var grid = document.getElementById('veille-grid');
   if (grid) {
+    var MAX = +(grid.dataset.max || 4);
     fetch('/data/veille.json', { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
@@ -79,25 +89,27 @@
           if (f.type === 'salon') { var fin = parse(f.dateFin || f.date); return !fin || fin >= today; }
           var d = parse(f.date); return !d || d >= limite;
         });
-        if (!fiches.length) { grid.appendChild(el('p', 'note', 'La prochaine sélection arrive bientôt.')); return; }
-        fiches.slice(0, 4).forEach(function (f) {
+        if (!fiches.length) { grid.appendChild(el('p', 'note', T.soon)); return; }
+        fiches.slice(0, MAX).forEach(function (f) {
           var a = el('a', 'fiche' + (f.type === 'salon' ? ' salon' : ''));
           if (/^https?:\/\//.test(f.lien || '')) a.href = f.lien;
           a.target = '_blank';
           a.rel = 'noopener';
           if (f.type === 'salon') {
             var debut = parse(f.date);
-            a.appendChild(el('span', 'badge', debut && debut > today ? 'Salon à venir' : 'Salon en cours'));
+            a.appendChild(el('span', 'badge', debut && debut > today ? T.upcoming : T.ongoing));
           }
-          var quand = f.type === 'salon' && f.dateFin ? 'Du ' + f.date + ' au ' + f.dateFin : (f.date || '');
+          var quand = f.type === 'salon' && f.dateFin ? T.from + f.date + T.to + f.dateFin : (f.date || '');
+          var titre = (LANG !== 'fr' && f['titre_' + LANG]) || f.titre || '';
+          var resume = (LANG !== 'fr' && f['resume_' + LANG]) || f.resume || '';
           a.appendChild(el('span', 'meta', quand + ' · ' + (f.source || '')));
-          a.appendChild(el('h3', '', f.titre || ''));
-          a.appendChild(el('p', '', f.resume || ''));
-          a.appendChild(el('span', 'go', 'Lire sur la source ↗'));
+          a.appendChild(el('h3', '', titre));
+          a.appendChild(el('p', '', resume));
+          a.appendChild(el('span', 'go', T.read));
           grid.appendChild(a);
         });
       })
-      .catch(function () { grid.appendChild(el('p', 'note', 'La veille est momentanément indisponible.')); });
+      .catch(function () { grid.appendChild(el('p', 'note', T.off)); });
   }
 
 
@@ -179,7 +191,7 @@
     if (!zb) {
       zb = document.createElement('dialog');
       zb.className = 'lightbox'; zb.id = 'lightbox';
-      zb.innerHTML = '<button type="button" class="lb-close" aria-label="Fermer">×</button><div class="lb-media"></div><h3></h3><p class="lb-desc"></p>';
+      zb.innerHTML = '<button type="button" class="lb-close" aria-label="' + ({ en: 'Close', ar: 'إغلاق' }[LANG] || 'Fermer') + '">×</button><div class="lb-media"></div><h3></h3><p class="lb-desc"></p>';
       document.body.appendChild(zb);
       zb.querySelector('.lb-close').addEventListener('click', function () { zb.close(); });
       zb.addEventListener('click', function (e) { if (e.target === zb) zb.close(); });

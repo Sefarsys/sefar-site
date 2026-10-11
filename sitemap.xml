@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://sefar-systeme.dz/</loc><lastmod>2026-10-11</lastmod><priority>1.0</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/</loc><lastmod>2026-10-11</lastmod><priority>1.0</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/</loc><lastmod>2026-10-11</lastmod><priority>1.0</priority></url>
   <url><loc>https://sefar-systeme.dz/a-propos.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/actualites.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/a-propos.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/actualites.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/contact.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/digital-energy.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/energies-du-futur.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/infrastructures-electriques.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/mentions-legales.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/references.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/solutions.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/ar/support.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://sefar-systeme.dz/contact.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://sefar-systeme.dz/digital-energy.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://sefar-systeme.dz/domaines-application.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/a-propos.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/actualites.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/contact.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/digital-energy.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/energies-du-futur.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/infrastructures-electriques.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/mentions-legales.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/references.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/solutions.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://sefar-systeme.dz/en/support.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://sefar-systeme.dz/energies-du-futur.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://sefar-systeme.dz/infrastructures-electriques.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://sefar-systeme.dz/mentions-legales.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>

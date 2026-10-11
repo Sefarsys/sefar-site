@@ -8,7 +8,11 @@
       "source": "Algeria Exhibitions",
       "titre": "Kahraba Expo 2026 : salon international de l'électricité et des énergies renouvelables, du 13 au 15 octobre à Alger",
       "resume": "Au Palais des expositions des Pins Maritimes (pavillon Palestine), avec des conférences sur la stabilité des réseaux, les micro-réseaux, la digitalisation et la synchronisation horaire.",
-      "lien": "https://www.algeriaexhibitions.dz/en/events/KAHRABA-2026"
+      "lien": "https://www.algeriaexhibitions.dz/en/events/KAHRABA-2026",
+      "titre_en": "Kahraba Expo 2026: international electricity and renewable energy fair, 13–15 October in Algiers",
+      "resume_en": "At the Pins Maritimes exhibition centre (Palestine hall), with conferences on grid stability, microgrids, digitalisation and time synchronisation.",
+      "titre_ar": "معرض كهرباء إكسبو 2026: المعرض الدولي للكهرباء والطاقات المتجددة، من 13 إلى 15 أكتوبر بالجزائر العاصمة",
+      "resume_ar": "بقصر المعارض الصنوبر البحري (جناح فلسطين)، مع محاضرات حول استقرار الشبكات والشبكات المصغّرة والرقمنة والتزامن الزمني."
     },
     {
       "type": "article",
@@ -16,7 +20,11 @@
       "source": "CapMad",
       "titre": "NAPEC 2026 à Oran : plus de 450 exposants autour de l'énergie et de l'hydrogène",
       "resume": "La 14e édition s'est tenue du 5 au 7 octobre au centre des conventions d'Oran, autour de la combinaison des renouvelables et des ressources fossiles.",
-      "lien": "https://www.capmad.com/article/oran-plus-de-450-exposants-attendus-au-napec-2026"
+      "lien": "https://www.capmad.com/article/oran-plus-de-450-exposants-attendus-au-napec-2026",
+      "titre_en": "NAPEC 2026 in Oran: more than 450 exhibitors focused on energy and hydrogen",
+      "resume_en": "The 14th edition was held from 5 to 7 October at the Oran convention centre, on combining renewables with fossil resources.",
+      "titre_ar": "نابك 2026 بوهران: أكثر من 450 عارضًا حول الطاقة والهيدروجين",
+      "resume_ar": "انعقدت الطبعة الرابعة عشرة من 5 إلى 7 أكتوبر بمركز الاتفاقيات بوهران، حول الجمع بين الطاقات المتجددة والموارد الأحفورية."
     },
     {
       "type": "article",
@@ -24,7 +32,11 @@
       "source": "Algérie Eco",
       "titre": "Sonelgaz lance un appel d'offres pour deux parcs éoliens de 100 MW à Laghouat et Djelfa",
       "resume": "L'appel est ouvert aux entreprises nationales et étrangères. Les offres sont attendues au plus tard le 25 novembre 2026.",
-      "lien": "https://algerie-eco.com/2026/09/30/algerie-sonelgaz-lance-un-appel-doffres-pour-deux-fermes-eoliennes-de-100-mw-chacune/"
+      "lien": "https://algerie-eco.com/2026/09/30/algerie-sonelgaz-lance-un-appel-doffres-pour-deux-fermes-eoliennes-de-100-mw-chacune/",
+      "titre_en": "Sonelgaz launches a tender for two 100 MW wind farms in Laghouat and Djelfa",
+      "resume_en": "The tender is open to national and foreign companies. Bids are due by 25 November 2026.",
+      "titre_ar": "سونلغاز تطلق مناقصة لإنجاز مزرعتين للرياح بقدرة 100 ميغاواط في الأغواط والجلفة",
+      "resume_ar": "المناقصة مفتوحة للشركات الوطنية والأجنبية. آخر أجل لتقديم العروض 25 نوفمبر 2026."
     },
     {
       "type": "article",
@@ -32,7 +44,11 @@
       "source": "WebManagerCenter",
       "titre": "Solaire et hydrogène : l'Algérie pourrait connaître la plus forte croissance renouvelable d'Afrique",
       "resume": "Une étude de marché place l'Algérie en tête sur 2026-2031. 400 MW solaires ont déjà été mis en service cette année.",
-      "lien": "https://www.webmanagercenter.com/2026/09/19/573012/energie-solaire-et-hydrogene-la-percee-energetique-de-lalgerie/"
+      "lien": "https://www.webmanagercenter.com/2026/09/19/573012/energie-solaire-et-hydrogene-la-percee-energetique-de-lalgerie/",
+      "titre_en": "Solar and hydrogen: Algeria could see the fastest renewable growth in Africa",
+      "resume_en": "A market study ranks Algeria first for 2026–2031. 400 MW of solar capacity has already been commissioned this year.",
+      "titre_ar": "الطاقة الشمسية والهيدروجين: الجزائر قد تسجّل أسرع نمو للطاقات المتجددة في إفريقيا",
+      "resume_ar": "دراسة سوقية تضع الجزائر في الصدارة للفترة 2026-2031. وقد تم تشغيل 400 ميغاواط من الطاقة الشمسية هذا العام."
     }
   ]
 }

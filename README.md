@@ -13,7 +13,7 @@ Site statique (HTML, CSS, JavaScript) hébergé sur Netlify. Devise : *Reliable 
 
 ## Pages
 
-Les pages sont écrites dans `src/` (contenu) et `partials/` (blocs réutilisables : schéma unifilaire, bandeau contact). L'en-tête et le pied de page communs sont dans `build.py`. Après une modification, lancer `python3 build.py` pour régénérer les fichiers `.html` à la racine.
+Les pages sont écrites dans `src/` (contenu) et `partials/` (blocs réutilisables). L'en-tête et le pied de page communs sont dans `build.py`. Après une modification, lancer `python3 build.py` pour régénérer les fichiers `.html` à la racine.
 
 ## Mise en ligne
 

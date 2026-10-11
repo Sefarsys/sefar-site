@@ -24,3 +24,9 @@
   to = "https://sefar-systeme.dz/:splat"
   status = 301
   force = true
+
+# Page supprimée : renvoi vers les solutions
+[[redirects]]
+  from = "/domaines-application.html"
+  to = "/solutions.html"
+  status = 301

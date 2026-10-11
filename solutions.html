@@ -1,18 +1,22 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Solutions — Séfar Système</title>
-<meta name="description" content="Contrôle-commande numérique des postes, intégration IEC 61850, protections et rétrofit Sepam, tableaux MT et BT, supervision SCADA, télécoms industrielles, génie civil et réseaux, énergies renouvelables.">
+<meta name="description" content="Contrôle-commande numérique des postes HTA/HTB, intégration IEC 61850, IEC 60870-5-104, IEC 60870-5-101 et Modbus, relais de protection et retrofit Sepam, tableaux MT et BT, supervision SCADA, télécoms industrielles, génie civil et réseaux, énergies renouvelables.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://sefar-systeme.dz/solutions.html">
+<link rel="alternate" hreflang="fr" href="https://sefar-systeme.dz/solutions.html">
+<link rel="alternate" hreflang="en" href="https://sefar-systeme.dz/en/solutions.html">
+<link rel="alternate" hreflang="ar" href="https://sefar-systeme.dz/ar/solutions.html">
+<link rel="alternate" hreflang="x-default" href="https://sefar-systeme.dz/solutions.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Séfar Système">
 <meta property="og:locale" content="fr_DZ">
 <meta property="og:url" content="https://sefar-systeme.dz/solutions.html">
 <meta property="og:title" content="Solutions — Séfar Système">
-<meta property="og:description" content="Contrôle-commande numérique des postes, intégration IEC 61850, protections et rétrofit Sepam, tableaux MT et BT, supervision SCADA, télécoms industrielles, génie civil et réseaux, énergies renouvelables.">
+<meta property="og:description" content="Contrôle-commande numérique des postes HTA/HTB, intégration IEC 61850, IEC 60870-5-104, IEC 60870-5-101 et Modbus, relais de protection et retrofit Sepam, tableaux MT et BT, supervision SCADA, télécoms industrielles, génie civil et réseaux, énergies renouvelables.">
 <meta property="og:image" content="https://sefar-systeme.dz/images/slide-infrastructures.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/images/favicon.png">
@@ -25,23 +29,23 @@
   <div class="wrap">
     <a class="brand" href="/" aria-label="Séfar Système, accueil">
       <img src="/images/logo-sefar-couleur.png" alt="Séfar Système" width="208" height="92">
-      <span class="tagline">Reliable energy<br>infrastructure</span>
+      <span class="tagline" lang="en">Reliable energy<br>infrastructure</span>
     </a>
     <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
       <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
     </button>
     <nav class="nav" id="menu" aria-label="Navigation principale">
       <a href="/">Home</a>
+      <a href="/a-propos.html">À propos</a>
       <a href="/solutions.html" class="on" aria-current="page">Solutions</a>
-      <a href="/domaines-application.html">Domaines d'application</a>
       <a href="/references.html">Références</a>
       <a href="/support.html">Support</a>
-      <a href="/a-propos.html">À propos</a>
+      <a href="/actualites.html">Actualités</a>
       <a class="nav-cta" href="/contact.html">Contact</a>
       <span class="lang">
-        <a class="on" href="/" lang="fr">FR</a>
-        <a href="/" lang="en">EN</a>
-        <a class="ar" href="/" lang="ar">العربية</a>
+        <a class="on" href="/solutions.html" lang="fr" hreflang="fr">FR</a>
+        <a href="/en/solutions.html" lang="en" hreflang="en">EN</a>
+        <a class="ar" href="/ar/solutions.html" lang="ar" hreflang="ar">العربية</a>
       </span>
     </nav>
   </div>
@@ -54,7 +58,7 @@
     <h1>Du poste électrique au centre de conduite</h1>
     <p>Ingénierie, fourniture, intégration, essais et mise en service : un seul interlocuteur pour l'ensemble de la chaîne électrique et numérique d'un poste.</p>
     <nav class="sol-index" aria-label="Accès rapide aux solutions">
-      <a href="#automatisation">Contrôle-commande</a><a href="#iec61850">IEC 61850</a><a href="#protections">Protections</a><a href="#tableaux">Tableaux MT/BT</a><a href="#scada">Supervision</a><a href="#telecoms">Télécoms</a><a href="#genie-civil">Génie civil et réseaux</a><a href="#renouvelables">Renouvelables</a>
+      <a href="#automatisation">Contrôle-commande HTA/HTB</a><a href="#iec61850">Protocoles</a><a href="#protections">Relais de protection</a><a href="#tableaux">Tableaux MT/BT</a><a href="#scada">Supervision</a><a href="#telecoms">Télécoms</a><a href="#genie-civil">Génie civil et réseaux</a><a href="#renouvelables">Renouvelables</a>
     </nav>
   </div>
 </section>
@@ -65,8 +69,9 @@
     <article id="automatisation" class="sol sol-rich">
       <div class="sol-text">
         <span class="ref-num">01</span>
-        <h2>Contrôle-commande numérique des postes</h2>
+        <h2>Contrôle-commande numérique des postes HTA/HTB</h2>
         <p>Le contrôle-commande numérique (CCN) remplace les tableaux de commande à relais et à câblage filaire par une architecture informatique industrielle : chaque travée est pilotée par son relais numérique, et l'ensemble du poste est conduit depuis une IHM locale ou depuis le centre de conduite.</p>
+        <p>Nous concevons, câblons et essayons nos armoires CCN dans notre atelier avant de les livrer : calculateur de poste, IHM, unité de tranche générale et switchs y sont montés, repérés et testés, pour une mise en service rapide sur site.</p>
         <ul class="ticks">
           <li>Étude d'architecture et dossier d'exécution</li>
           <li>Armoires CCN : RTU MiCOM C264, PC industriel, IHM tactile, switchs redondants</li>
@@ -75,59 +80,43 @@
           <li>Essais en plateforme puis sur site, mise en service et formation des exploitants</li>
         </ul>
       </div>
-      <figure class="sol-media sol-icon" aria-hidden="true"><svg viewBox="0 0 400 300"><rect width="400" height="300" fill="#F7F8F9"/><circle cx="200" cy="150" r="118" fill="#FDEBDD"/>
-<rect x="135" y="40" width="130" height="220" rx="6" fill="#FFFFFF" stroke="#1A2024" stroke-width="3"/>
-<rect x="150" y="56" width="100" height="62" rx="3" fill="#E8F0FA" stroke="#1F5FAD" stroke-width="2.5"/>
-<path d="M160 100 H180 V80 H200 V100 H220 V72 H240" fill="none" stroke="#1F5FAD" stroke-width="2.5"/>
-<rect x="150" y="130" width="100" height="40" rx="3" fill="#FFFFFF" stroke="#1A2024" stroke-width="2.5"/>
-<g fill="#F07A2B"><circle cx="164" cy="150" r="4"/><circle cx="178" cy="150" r="4"/></g><rect x="194" y="140" width="46" height="20" rx="2" fill="#E9ECEE"/>
-<rect x="150" y="182" width="100" height="16" rx="2" fill="#1A2024"/><rect x="150" y="206" width="100" height="16" rx="2" fill="#1A2024"/>
-<g fill="#3FA36B"><circle cx="160" cy="190" r="2.5"/><circle cx="168" cy="190" r="2.5"/><circle cx="160" cy="214" r="2.5"/><circle cx="168" cy="214" r="2.5"/></g>
-<text x="200" y="285" text-anchor="middle" font-family="YuGothic, 'Yu Gothic', 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#C75F17">RTU · IHM · Switchs redondants</text></svg></figure>
+      <figure class="sol-media sol-duo">
+        <img src="/images/references/armoire-ccn-2.jpg" alt="Armoire de contrôle-commande numérique ouverte : PC industriel, IHM, calculateur de poste U1 et switchs fibre optique" data-zoom loading="lazy">
+        <img src="/images/references/armoire-ccn.jpg" alt="Armoire de contrôle-commande numérique avec IHM tactile, calculateur et switchs" data-zoom loading="lazy">
+      </figure>
     </article>
 
     <article id="iec61850" class="sol sol-rich">
       <div class="sol-text">
         <span class="ref-num">02</span>
-        <h2>Intégration IEC 61850</h2>
-        <p>La norme IEC 61850 permet aux équipements de protection et de contrôle-commande d'échanger leurs informations sur un réseau Ethernet commun. Nous assurons l'ingénierie complète du poste numérique, de la configuration des équipements jusqu'aux essais d'interopérabilité.</p>
+        <h2>Intégration IEC 61850, IEC 60870-5-104, IEC 60870-5-101 et Modbus</h2>
+        <p>Dans un poste, les équipements de protection, de mesure et de conduite doivent échanger leurs informations entre eux et avec le centre de conduite. Nous maîtrisons les protocoles du secteur et réalisons les passerelles qui les relient, de la configuration des équipements jusqu'aux essais avec l'exploitant.</p>
         <ul class="ticks">
-          <li>Ingénierie des fichiers SCL : SCD, ICD, CID</li>
-          <li>Messages GOOSE pour les automatismes et interverrouillages entre travées</li>
-          <li>Rapports MMS vers l'IHM, le calculateur et la passerelle de téléconduite</li>
-          <li>Réseau fibre optique redondant entre relais et switchs</li>
-          <li>Essais d'interopérabilité entre équipements de plusieurs constructeurs</li>
+          <li>IEC 61850 : ingénierie des fichiers SCL (SCD, ICD, CID), messages GOOSE et rapports MMS</li>
+          <li>IEC 60870-5-104 : téléconduite sur réseau IP vers le SCADA et le centre de conduite</li>
+          <li>IEC 60870-5-101 : liaisons série vers les centres de conduite et les équipements existants</li>
+          <li>Modbus RTU et TCP : compteurs, centrales de mesure, automates et équipements tiers</li>
+          <li>Passerelles de conversion de protocole, tables de correspondance et essais point à point</li>
         </ul>
       </div>
-      <figure class="sol-media sol-icon" aria-hidden="true"><svg viewBox="0 0 400 300"><rect width="400" height="300" fill="#F7F8F9"/><circle cx="200" cy="150" r="118" fill="#FDEBDD"/>
-<g stroke="#1F5FAD" stroke-width="3" fill="none"><path d="M200 80 L110 170 M200 80 L290 170 M110 170 H290 M200 80 V170"/></g>
-<g stroke="#F07A2B" stroke-width="3" fill="none" stroke-dasharray="7 6"><path d="M110 170 L200 240 L290 170"/></g>
-<g fill="#FFFFFF" stroke="#1A2024" stroke-width="3"><rect x="170" y="56" width="60" height="44" rx="5"/><rect x="80" y="150" width="60" height="44" rx="5"/><rect x="260" y="150" width="60" height="44" rx="5"/><rect x="170" y="150" width="60" height="44" rx="5"/><rect x="170" y="222" width="60" height="40" rx="5"/></g>
-<g font-family="YuGothic, 'Yu Gothic', 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#1A2024" text-anchor="middle"><text x="200" y="83">SCADA</text><text x="110" y="177">IED</text><text x="290" y="177">IED</text><text x="200" y="177">IED</text><text x="200" y="247">IED</text></g>
-<g font-family="YuGothic, 'Yu Gothic', 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#C75F17"><text x="122" y="122">MMS</text><text x="232" y="232">GOOSE</text></g></svg></figure>
+      <figure class="sol-media sol-contain"><img src="/images/references/passerelle-iec61850-iec104.jpg" alt="Passerelle de communication : équipements du poste en IEC 61850 (MMS, GOOSE), conversion de protocole et transmission en IEC 60870-5-104 vers le SCADA et le centre de conduite" data-zoom loading="lazy"></figure>
     </article>
 
     <article id="protections" class="sol sol-rich">
       <div class="sol-text">
         <span class="ref-num">03</span>
-        <h2>Protections et rétrofit</h2>
-        <p>Les relais de protection sont le cœur de la sûreté d'un poste. Nous les choisissons, les réglons et les essayons, et nous modernisons les protections existantes sans remplacer les cellules, grâce à des solutions de rétrofit adaptées.</p>
+        <h2>Relais de protection et retrofit</h2>
+        <p>Les relais de protection sont le cœur de la sûreté d'un poste. Nous maîtrisons leur configuration, leurs essais et leur mise en service : nos équipes réalisent les essais de protection avec leurs propres outils, valises d'injection et logiciels de paramétrage.</p>
+        <p>Nous proposons aussi la mise à niveau des protections vers les versions les plus récentes, ou le remplacement des relais existants avec le moins d'impact possible sur le câblage basse tension des cellules.</p>
         <ul class="ticks">
-          <li>Plans de protection et calcul des réglages</li>
-          <li>Rétrofit Sepam 2000 vers Sepam 80 avec caisson d'adaptation « plug and play »</li>
-          <li>Protections de lignes, transformateurs, jeux de barres et départs</li>
-          <li>Essais par injection secondaire avec valise de test</li>
-          <li>Procès-verbaux d'essais et réception avec l'exploitant</li>
+          <li>Configuration et paramétrage des relais, plans de protection et calcul des réglages</li>
+          <li>Essais de protection par injection secondaire avec nos valises de test</li>
+          <li>Mise en service, procès-verbaux d'essais et réception avec l'exploitant</li>
+          <li>Mise à niveau des relais vers les dernières versions</li>
+          <li>Retrofit Sepam 2000 vers Sepam 80 sans reprise du câblage BT des cellules</li>
         </ul>
       </div>
-      <figure class="sol-media sol-icon" aria-hidden="true"><svg viewBox="0 0 400 300"><rect width="400" height="300" fill="#F7F8F9"/><circle cx="200" cy="150" r="118" fill="#FDEBDD"/>
-<rect x="110" y="60" width="180" height="180" rx="8" fill="#2B3338"/>
-<rect x="130" y="80" width="80" height="70" rx="3" fill="#E8F0FA"/>
-<path d="M138 140 C150 140 156 90 172 90 S196 130 204 128" fill="none" stroke="#F07A2B" stroke-width="3"/>
-<g fill="#FFFFFF"><circle cx="240" cy="92" r="9"/></g><circle cx="240" cy="118" r="9" fill="#E0452C"/>
-<g fill="#4D575D"><rect x="130" y="166" width="22" height="16" rx="3"/><rect x="160" y="166" width="22" height="16" rx="3"/><rect x="190" y="166" width="22" height="16" rx="3"/><rect x="130" y="192" width="22" height="16" rx="3"/><rect x="160" y="192" width="22" height="16" rx="3"/><rect x="190" y="192" width="22" height="16" rx="3"/></g>
-<g fill="#3FA36B"><circle cx="232" cy="172" r="3"/><circle cx="232" cy="184" r="3"/></g>
-<text x="200" y="275" text-anchor="middle" font-family="YuGothic, 'Yu Gothic', 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#C75F17">Réglages · Essais · Rétrofit</text></svg></figure>
+      <figure class="sol-media"><img src="/images/references/sepam-80-caisson.jpg" alt="Relais Sepam 80 monté dans un caisson d'adaptation pour le retrofit des cellules existantes" data-zoom loading="lazy"></figure>
     </article>
 
     <article id="tableaux" class="sol sol-rich">
@@ -232,17 +221,18 @@
     <div class="footer-top">
       <div class="footer-brand">
         <img src="/images/logo-sefar-couleur.png" alt="Séfar Système" width="230" height="101">
-        <span class="motto">Reliable energy<br>infrastructure</span>
+        <span class="motto" lang="en">Reliable energy<br>infrastructure</span>
         <p>Intégrateur de systèmes électriques et numériques.</p>
-        <div class="norms"><span>IEC 61850</span><span>IEC 60870-5-104</span><span>MODBUS</span></div>
+        <div class="norms" dir="ltr"><span>IEC 61850</span><span>IEC 60870-5-104</span><span>MODBUS</span></div>
       </div>
       <div class="footer-cols">
-        <div><strong>Entreprise</strong><a href="/a-propos.html">À propos</a><a href="/references.html">Références</a><a href="/contact.html">Carrières</a></div>
+        <div><strong>Entreprise</strong><a href="/a-propos.html">À propos</a><a href="/references.html">Références</a><a href="/actualites.html">Actualités</a></div>
         <div><strong>Solutions</strong><a href="/infrastructures-electriques.html">Infrastructures électriques</a><a href="/energies-du-futur.html">Énergies du futur</a><a href="/digital-energy.html">Digital Energy</a></div>
         <div class="footer-contact"><strong>Contact</strong>
           <span>Séfar Système SARL</span>
           <span>7 rue Ahmed Kara, Djenane El Malik<br>Hydra, Alger, Algérie</span>
-          <span>Tél. / Fax : <a href="tel:+21328103132">028 10 31 32</a></span>
+          <span>Tél. / Fax : <a href="tel:+21328103132" dir="ltr">028 10 31 32</a></span>
+          <span>E-mail : <a href="mailto:contact@sefar-systeme.dz">contact@sefar-systeme.dz</a></span>
         </div>
       </div>
     </div>

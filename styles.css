@@ -36,7 +36,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--orange); outlin
 .brand { display: flex; align-items: center; gap: 18px; }
 .brand img { height: 92px; width: auto; }
 .tagline { padding-left: 18px; border-left: 1px solid var(--line); font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--orange); line-height: 1.35; }
-.nav { display: flex; align-items: center; gap: 2px; white-space: nowrap; font-family: var(--font-bold); font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+.nav { display: flex; align-items: center; gap: 2px; white-space: nowrap; font-family: var(--font-bold); font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
 .nav a { color: var(--ink); padding: 7px 10px; border-radius: 999px; transition: background-color .25s ease, color .25s ease; }
 .nav a:hover { color: var(--ink); background: rgba(240,122,43,.12); }
 .nav a.on { color: var(--orange-text); background: rgba(240,122,43,.08); }
@@ -319,3 +319,53 @@ img[data-zoom] { cursor: zoom-in; }
 .ticks li::before { content: ""; position: absolute; left: 0; top: 6px; width: 14px; height: 8px; border-left: 2.5px solid var(--orange); border-bottom: 2.5px solid var(--orange); transform: rotate(-45deg); }
 .more-link { font-weight: 700; color: var(--orange-text); }
 .sol-media.sol-contain img { object-fit: contain; background: #FFFFFF; }
+
+/* Solutions : deux photos côte à côte */
+.sol-media.sol-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; background: #FFFFFF; }
+.sol-media.sol-duo img { width: 100%; height: 100%; object-fit: cover; min-height: 0; }
+
+/* Références : affiche pleine largeur (retrofit Sepam) */
+.ref-card.ref-wide { flex-direction: column; }
+.ref-wide .ref-body { flex: none; }
+.ref-poster { margin: 0; padding: 0 40px 40px; }
+.ref-poster img { width: 100%; max-width: 980px; height: auto; margin: 0 auto; border: 1px solid var(--line); border-radius: 4px; }
+@media (max-width: 600px) { .ref-poster { padding: 0 16px 24px; } }
+
+/* À propos : phrase des qualifications en orange */
+.section-head .lead.lead-orange { color: var(--orange-text); font-weight: 700; }
+
+/* Contact : coordonnées */
+.contact-info .contact-lines { font-size: 15px; line-height: 1.8; }
+.contact-info .contact-lines a { font-weight: 600; }
+.veille-head .more-link { font-size: 14px; }
+
+/* ---- Version arabe : lecture de droite à gauche ---- */
+html[lang="ar"] body, html[lang="ar"] .form input, html[lang="ar"] .form select, html[lang="ar"] .form textarea, html[lang="ar"] .qbtn, html[lang="ar"] .tab, html[lang="ar"] .form .btn {
+  font-family: 'Noto Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+}
+html[lang="ar"] .h2, html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] .nav { font-family: 'Noto Sans Arabic', 'Segoe UI', Tahoma, sans-serif; }
+html[lang="ar"] *:not(.tagline):not(.motto):not(.norms span) { letter-spacing: 0 !important; }
+html[lang="ar"] .h2 { line-height: 1.45; }
+html[lang="ar"] .nav { font-size: 13px; }
+html[lang="ar"] .nav .lang { font-size: 10px; }
+html[lang="ar"] p, html[lang="ar"] li { line-height: 1.9; }
+[dir="rtl"] .tagline { padding-left: 0; border-left: 0; padding-right: 18px; border-right: 1px solid var(--line); }
+[dir="rtl"] .nav .nav-cta { margin-left: 0; margin-right: 8px; }
+[dir="rtl"] .lang { margin-left: 0; padding-left: 0; border-left: 0; margin-right: 12px; padding-right: 12px; border-right: 1px solid var(--line); }
+[dir="rtl"] .tab { text-align: right; }
+[dir="rtl"] .tab-fill { inset: 0 0 0 auto; }
+[dir="rtl"] .arrow, [dir="rtl"] .arrows svg { transform: scaleX(-1); }
+[dir="rtl"] .card:hover .more span { transform: translateX(-4px); }
+[dir="rtl"] th, [dir="rtl"] td { text-align: right; }
+[dir="rtl"] .ticks li { padding-left: 0; padding-right: 26px; }
+[dir="rtl"] .ticks li::before { left: auto; right: 0; }
+[dir="rtl"] .pillars div { padding: 32px 0 8px 32px; }
+[dir="rtl"] .keyfacts li { padding: 24px 0 24px 24px; }
+[dir="rtl"] .ref-media .ref-media-2 { inset: auto auto 16px 16px; }
+[dir="rtl"] .hp { left: auto; right: -9999px; }
+@media (max-width: 900px) {
+  [dir="rtl"] .lang { margin: 12px 0 0; padding: 12px 8px 0; border-right: 0; }
+  html[lang="ar"] .nav { font-size: 15px; }
+}
+[dir="rtl"] .slide-shade { background: linear-gradient(270deg, rgba(8,12,16,.88) 0%, rgba(8,12,16,.6) 40%, rgba(8,12,16,0) 72%); }
+[dir="rtl"] .page-hero.has-img::before { background: linear-gradient(270deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.88) 45%, rgba(255,255,255,.15) 100%); }
