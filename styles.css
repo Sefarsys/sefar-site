@@ -298,3 +298,8 @@ th { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: va
 img[data-zoom] { cursor: zoom-in; }
 .ref-photo-img { flex: 1 1 480px; min-width: 0; margin: 0; aspect-ratio: 16 / 10; max-width: 100%; overflow: hidden; border-radius: 4px; }
 .ref-photo-img img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Schéma unifilaire (image) de l'accueil */
+.sld { margin: 48px 0 0; background: #FFFFFF; border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 8px 24px rgba(17,23,27,.06); padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.sld img { width: 100%; height: auto; }
+.sld figcaption { font-size: 13px; color: var(--muted); text-align: center; }
