@@ -35,7 +35,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--orange); outlin
 .header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 4px 6px; }
 .brand { display: flex; align-items: center; gap: 18px; }
 .brand img { height: 92px; width: auto; }
-.tagline { padding-left: 18px; border-left: 1px solid var(--line); font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); line-height: 1.35; }
+.tagline { padding-left: 18px; border-left: 1px solid var(--line); font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--orange); line-height: 1.35; }
 .nav { display: flex; align-items: center; gap: 2px; white-space: nowrap; font-family: var(--font-bold); font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
 .nav a { color: var(--ink); padding: 7px 10px; border-radius: 999px; transition: background-color .25s ease, color .25s ease; }
 .nav a:hover { color: var(--ink); background: rgba(240,122,43,.12); }
