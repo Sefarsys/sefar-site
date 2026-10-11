@@ -148,41 +148,84 @@
         <a class="btn btn-line" href="/a-propos.html">Découvrir l'entreprise <svg class="arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
       </div>
       <figure class="unifilaire">
-        <svg viewBox="0 0 600 336" width="100%" role="img" aria-label="Schéma unifilaire d'un poste HT/MT à deux arrivées et deux transformateurs, avec couplage et remontée de barre entre les deux demi-jeux de barres MT">
-          <g fill="none" stroke="#C9D0D4" stroke-width="2">
-            <!-- Arrivée HT 1 / TR 1 -->
-            <path d="M150 18 V44"/><rect x="138" y="44" width="24" height="24"/><path d="M150 68 V84"/>
-            <circle cx="150" cy="100" r="16"/><circle cx="150" cy="122" r="16"/>
-            <path d="M150 138 V150"/><rect x="138" y="150" width="24" height="24"/><path d="M150 174 V200"/>
-            <!-- Arrivée HT 2 / TR 2 -->
-            <path d="M450 18 V44"/><rect x="438" y="44" width="24" height="24"/><path d="M450 68 V84"/>
-            <circle cx="450" cy="100" r="16"/><circle cx="450" cy="122" r="16"/>
-            <path d="M450 138 V150"/><rect x="438" y="150" width="24" height="24"/><path d="M450 174 V200"/>
-            <!-- Couplage (disjoncteur) et remontée de barre (sectionneur) -->
-            <path d="M262 200 V222"/><rect x="250" y="222" width="24" height="24"/><path d="M262 246 V268 H338 V252"/>
-            <path d="M338 252 L349 234"/><path d="M338 230 V200"/>
-            <!-- Départs -->
-            <path d="M70 200 V222 M130 200 V222 M200 200 V222 M400 200 V222 M470 200 V222 M530 200 V222"/>
-            <rect x="58" y="222" width="24" height="24"/><rect x="118" y="222" width="24" height="24"/><rect x="188" y="222" width="24" height="24"/>
-            <rect x="388" y="222" width="24" height="24"/><rect x="458" y="222" width="24" height="24"/><rect x="518" y="222" width="24" height="24"/>
-            <path d="M70 246 V286 M130 246 V286 M200 246 V286 M400 246 V286 M470 246 V286 M530 246 V286"/>
-            <path d="M64 280 L70 288 L76 280 M124 280 L130 288 L136 280 M194 280 L200 288 L206 280 M394 280 L400 288 L406 280 M464 280 L470 288 L476 280 M524 280 L530 288 L536 280"/>
+        <svg viewBox="0 0 640 380" width="100%" role="img" aria-label="Schéma unifilaire d'un poste HT/MT : deux arrivées HT, deux transformateurs, deux demi-jeux de barres MT reliés par un couplage et une remontée de barre, six départs">
+          <defs>
+            <!-- Disjoncteur fermé / ouvert -->
+            <symbol id="dj" viewBox="-10 -10 20 20" overflow="visible"><rect x="-9" y="-9" width="18" height="18" rx="2" fill="currentColor"/></symbol>
+            <symbol id="dj-o" viewBox="-10 -10 20 20" overflow="visible"><rect x="-9" y="-9" width="18" height="18" rx="2" fill="#FFFFFF" stroke="currentColor" stroke-width="2.4"/></symbol>
+            <!-- Sectionneur (fermé) -->
+            <symbol id="sect" viewBox="-12 -12 24 24" overflow="visible"><path d="M0 -12 V-7 M-7 -7 H7 M0 12 V7 M0 7 L-3 -7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="0" cy="7" r="2.6" fill="currentColor"/></symbol>
+            <!-- Transformateur de courant -->
+            <symbol id="tc" viewBox="-8 -8 16 16" overflow="visible"><circle r="5.5" fill="#FFFFFF" stroke="currentColor" stroke-width="2"/></symbol>
+            <!-- Départ (câble vers charge) -->
+            <symbol id="dep" viewBox="-8 0 16 18" overflow="visible"><path d="M-7 0 L0 12 L7 0 Z" fill="currentColor"/></symbol>
+            <!-- Terre -->
+            <symbol id="terre" viewBox="-8 0 16 10" overflow="visible"><path d="M-7 0 H7 M-4.5 4 H4.5 M-2 8 H2" stroke="#6B757A" stroke-width="2"/></symbol>
+          </defs>
+
+          <!-- ===== Arrivée 1 (HT en bleu) ===== -->
+          <g color="#1F5FAD" stroke="#1F5FAD" stroke-width="3" fill="none">
+            <path d="M170 8 V34 M170 58 V72 M170 90 V100 M170 108 V112"/>
           </g>
-          <!-- Demi-jeux de barres MT -->
-          <g stroke="#F07A2B" stroke-width="4"><path d="M40 200 H274"/><path d="M326 200 H560"/></g>
-          <circle cx="338" cy="252" r="2.5" fill="#C9D0D4"/>
-          <g font-family="YuGothic, 'Yu Gothic', sans-serif" font-size="11" fill="#8E999F" letter-spacing="1">
-            <text x="162" y="28">ARRIVÉE HT 1</text><text x="462" y="28">ARRIVÉE HT 2</text>
-            <text x="170" y="61">DJ HT</text><text x="470" y="61">DJ HT</text>
-            <text x="174" y="116">TR 1</text><text x="474" y="116">TR 2</text>
-            <text x="170" y="167">DJ ARRIVÉE</text><text x="470" y="167">DJ ARRIVÉE</text>
-            <text x="40" y="192" fill="#F07A2B">JDB MT 1</text><text x="560" y="192" fill="#F07A2B" text-anchor="end">JDB MT 2</text>
-            <text x="262" y="290" text-anchor="middle">COUPLAGE</text>
-            <text x="338" y="326" text-anchor="middle">REMONTÉE DE BARRE</text>
-            <g text-anchor="middle"><text x="70" y="306">D1</text><text x="130" y="306">D2</text><text x="200" y="306">D3</text><text x="400" y="306">D4</text><text x="470" y="306">D5</text><text x="530" y="306">D6</text></g>
+          <g color="#1F5FAD"><use href="#sect" x="158" y="34" width="24" height="24"/><use href="#dj" x="160" y="71" width="20" height="20"/><use href="#tc" x="162" y="96" width="16" height="16"/></g>
+          <!-- TR1 : primaire bleu, secondaire orange -->
+          <circle cx="170" cy="130" r="18" fill="#E8F0FA" stroke="#1F5FAD" stroke-width="3"/>
+          <circle cx="170" cy="154" r="18" fill="#FDEBDD" stroke="#F07A2B" stroke-width="3" fill-opacity=".85"/>
+          <circle cx="170" cy="130" r="18" fill="none" stroke="#1F5FAD" stroke-width="3"/>
+          <g color="#F07A2B" stroke="#F07A2B" stroke-width="3" fill="none"><path d="M170 172 V186 M170 204 V220"/></g>
+          <g color="#F07A2B"><use href="#dj" x="160" y="185" width="20" height="20"/></g>
+
+          <!-- ===== Arrivée 2 ===== -->
+          <g stroke="#1F5FAD" stroke-width="3" fill="none"><path d="M470 8 V34 M470 58 V72 M470 90 V100 M470 108 V112"/></g>
+          <g color="#1F5FAD"><use href="#sect" x="458" y="34" width="24" height="24"/><use href="#dj" x="460" y="71" width="20" height="20"/><use href="#tc" x="462" y="96" width="16" height="16"/></g>
+          <circle cx="470" cy="130" r="18" fill="#E8F0FA" stroke="#1F5FAD" stroke-width="3"/>
+          <circle cx="470" cy="154" r="18" fill="#FDEBDD" stroke="#F07A2B" stroke-width="3" fill-opacity=".85"/>
+          <circle cx="470" cy="130" r="18" fill="none" stroke="#1F5FAD" stroke-width="3"/>
+          <g stroke="#F07A2B" stroke-width="3" fill="none"><path d="M470 172 V186 M470 204 V220"/></g>
+          <g color="#F07A2B"><use href="#dj" x="460" y="185" width="20" height="20"/></g>
+
+          <!-- ===== Demi-jeux de barres MT ===== -->
+          <path d="M36 220 H300" stroke="#F07A2B" stroke-width="7" stroke-linecap="round"/>
+          <path d="M340 220 H604" stroke="#F07A2B" stroke-width="7" stroke-linecap="round"/>
+
+          <!-- ===== Couplage (ouvert) + remontée de barre ===== -->
+          <g stroke="#F07A2B" stroke-width="3" fill="none"><path d="M286 220 V246 M286 264 V286 H354 V266 M354 242 V220"/></g>
+          <g color="#F07A2B"><use href="#dj-o" x="276" y="245" width="20" height="20"/><use href="#sect" x="342" y="242" width="24" height="24"/></g>
+
+          <!-- ===== Départs ===== -->
+          <g stroke="#F07A2B" stroke-width="3" fill="none">
+            <path d="M70 220 V246 M70 264 V274 M70 282 V312"/><path d="M135 220 V246 M135 264 V274 M135 282 V312"/><path d="M215 220 V246 M215 264 V274 M215 282 V312"/>
+            <path d="M425 220 V246 M425 264 V274 M425 282 V312"/><path d="M505 220 V246 M505 264 V274 M505 282 V312"/><path d="M570 220 V246 M570 264 V274 M570 282 V312"/>
+          </g>
+          <g color="#F07A2B">
+            <use href="#dj" x="60" y="245" width="20" height="20"/><use href="#dj" x="125" y="245" width="20" height="20"/><use href="#dj" x="205" y="245" width="20" height="20"/>
+            <use href="#dj" x="415" y="245" width="20" height="20"/><use href="#dj" x="495" y="245" width="20" height="20"/><use href="#dj" x="560" y="245" width="20" height="20"/>
+            <use href="#tc" x="62" y="270" width="16" height="16"/><use href="#tc" x="127" y="270" width="16" height="16"/><use href="#tc" x="207" y="270" width="16" height="16"/>
+            <use href="#tc" x="417" y="270" width="16" height="16"/><use href="#tc" x="497" y="270" width="16" height="16"/><use href="#tc" x="562" y="270" width="16" height="16"/>
+            <use href="#dep" x="62" y="310" width="16" height="18"/><use href="#dep" x="127" y="310" width="16" height="18"/><use href="#dep" x="207" y="310" width="16" height="18"/>
+            <use href="#dep" x="417" y="310" width="16" height="18"/><use href="#dep" x="497" y="310" width="16" height="18"/><use href="#dep" x="562" y="310" width="16" height="18"/>
+          </g>
+          <!-- Mise à la terre des neutres MT -->
+          <g stroke="#6B757A" stroke-width="2" fill="none"><path d="M188 154 H206 V166 M488 154 H506 V166"/></g>
+          <use href="#terre" x="198" y="166" width="16" height="10"/><use href="#terre" x="498" y="166" width="16" height="10"/>
+
+          <!-- Repères (texte minimal) -->
+          <g font-family="YuGothic, 'Yu Gothic', 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1A2024">
+            <text x="128" y="146" text-anchor="end">TR1</text><text x="428" y="146" text-anchor="end">TR2</text>
+          </g>
+
+          <!-- Légende -->
+          <g font-family="YuGothic, 'Yu Gothic', 'Segoe UI', sans-serif" font-size="11" fill="#4D575D">
+            <path d="M24 360 H44" stroke="#1F5FAD" stroke-width="4"/><text x="50" y="364">HT</text>
+            <path d="M84 360 H104" stroke="#F07A2B" stroke-width="4"/><text x="110" y="364">MT</text>
+            <g color="#4D575D"><use href="#dj" x="146" y="351" width="18" height="18"/></g><text x="170" y="364">Disjoncteur</text>
+            <g color="#4D575D"><use href="#dj-o" x="246" y="351" width="18" height="18"/></g><text x="270" y="364">Ouvert</text>
+            <g color="#4D575D"><use href="#sect" x="325" y="350" width="20" height="20"/></g><text x="350" y="364">Sectionneur</text>
+            <g color="#4D575D"><use href="#tc" x="432" y="353" width="14" height="14"/></g><text x="452" y="364">TC</text>
+            <g color="#4D575D"><use href="#dep" x="488" y="353" width="14" height="14"/></g><text x="508" y="364">Départ</text>
           </g>
         </svg>
-        <figcaption>Poste HT/MT à deux arrivées et deux transformateurs indépendants. Les deux demi-jeux de barres MT sont reliés par un couplage et une remontée de barre : en cas d'indisponibilité d'un transformateur, l'autre reprend l'ensemble des départs.</figcaption>
+        <figcaption>Double alimentation : couplage et remontée de barre entre les deux demi-jeux de barres MT.</figcaption>
       </figure>
     </div>
     <div class="pillars">

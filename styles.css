@@ -110,8 +110,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--orange); outlin
 .about-text { flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 20px; }
 .about-text p { margin: 0; max-width: 560px; font-size: 17px; line-height: 1.7; color: var(--ink-soft); }
 .about-text .btn { align-self: flex-start; }
-.unifilaire { flex: 1 1 480px; min-width: 0; margin: 0; background: var(--night); padding: 28px; display: flex; flex-direction: column; gap: 14px; }
-.unifilaire figcaption { font-size: 12px; letter-spacing: .06em; color: #8E999F; border-top: 1px solid #263038; padding-top: 12px; }
+.unifilaire { flex: 1 1 480px; min-width: 0; margin: 0; background: #FFFFFF; border: 1px solid var(--line); box-shadow: 0 1px 2px rgba(17,23,27,.04), 0 8px 24px rgba(17,23,27,.06); padding: 24px; display: flex; flex-direction: column; gap: 12px; }
+.unifilaire figcaption { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
 .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); border-top: 1px solid var(--line); margin-top: 64px; }
 .pillars div { display: flex; flex-direction: column; gap: 12px; padding: 32px 32px 8px 0; }
 .pillars h3 { margin: 0; font-family: var(--font-bold); font-weight: 700; font-size: 24px; text-transform: uppercase; }
