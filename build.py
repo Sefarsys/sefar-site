@@ -7,11 +7,52 @@ L'en-tête et le pied de page sont communs à toutes les pages et définis ici.
 
 Usage : python3 build.py   (génère <nom>.html à la racine du site)
 """
+import datetime
 import json
 import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).parent
+SITE = "https://sefar-systeme.dz"
+
+# Données structurées (schema.org) : aident Google à comprendre qui est l'entreprise
+ORG_JSONLD = {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "LocalBusiness", "ElectricalContractor"],
+    "@id": SITE + "/#entreprise",
+    "name": "Séfar Système",
+    "legalName": "SARL Séfar Système",
+    "alternateName": ["Sefar Systeme", "Séfar Système SARL"],
+    "slogan": "Reliable energy infrastructure",
+    "description": "Intégrateur algérien de systèmes électriques et numériques : contrôle-commande numérique des postes HT/MT, intégration IEC 61850, protections et rétrofit Sepam, tableaux MT/BT, supervision SCADA, télécoms industrielles, génie civil et énergies renouvelables.",
+    "url": SITE + "/",
+    "logo": SITE + "/images/logo-sefar-couleur.png",
+    "image": SITE + "/images/slide-infrastructures.jpg",
+    "foundingDate": "2019",
+    "telephone": "+213 28 10 31 32",
+    "faxNumber": "+213 28 10 31 32",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7 rue Ahmed Kara, Djenane El Malik",
+        "addressLocality": "Hydra",
+        "addressRegion": "Alger",
+        "addressCountry": "DZ",
+    },
+    "geo": {"@type": "GeoCoordinates", "latitude": 36.7464287, "longitude": 3.0266527},
+    "hasMap": "https://maps.app.goo.gl/rWyvqBvA1b9t3pJk7",
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "08:30", "closes": "17:00",
+    }],
+    "areaServed": {"@type": "Country", "name": "Algérie"},
+    "knowsAbout": ["Contrôle-commande numérique", "IEC 61850", "Postes électriques HT/MT",
+                   "Relais de protection Sepam", "SCADA", "Téléconduite IEC 60870-5-104",
+                   "Tableaux moyenne tension", "Énergies renouvelables"],
+    "hasCredential": ["ISO 9001:2015", "ISO 14001:2015", "ISO 45001:2018",
+                      "Qualification BTP catégorie VI",
+                      "Schneider Electric EcoXpert Power Automation"],
+}
 SRC = ROOT / "src"
 
 NAV = [
@@ -30,10 +71,18 @@ HEAD = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{description}">
+<meta name="robots" content="{robots}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Séfar Système">
+<meta property="og:locale" content="fr_DZ">
+<meta property="og:url" content="{url}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
-<meta property="og:image" content="/images/slide-infrastructures.jpg">
+<meta property="og:image" content="{site}/images/slide-infrastructures.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" href="/images/favicon.png">{jsonld}
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -95,6 +144,7 @@ FOOTER = """<footer class="footer">
 
 def build():
     pages = sorted(SRC.glob("*.html"))
+    sitemap = []
     for src in pages:
         text = src.read_text(encoding="utf-8")
         m = re.match(r"\s*<!--(.*?)-->\s*", text, re.S)
@@ -114,8 +164,22 @@ def build():
             f'      <a href="{href}"{on if key == active else ""}>{label}</a>'
             for key, href, label in NAV
         )
+        path = "/" if src.name == "index.html" else "/" + src.name
+        url = SITE + path
+        noindex = meta.get("noindex", False)
+        jsonld = ""
+        if src.name == "index.html":
+            jsonld = '\n<script type="application/ld+json">' + json.dumps(ORG_JSONLD, ensure_ascii=False) + "</script>"
+        elif not noindex:
+            crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Accueil", "item": SITE + "/"},
+                {"@type": "ListItem", "position": 2, "name": meta["title"].split(" — ")[0], "item": url}]}
+            jsonld = '\n<script type="application/ld+json">' + json.dumps(crumbs, ensure_ascii=False) + "</script>"
+        if not noindex:
+            sitemap.append((url, 1.0 if path == "/" else 0.8))
         html = (
-            HEAD.format(title=meta["title"], description=meta["description"])
+            HEAD.format(title=meta["title"], description=meta["description"], url=url, site=SITE,
+                        robots="noindex, follow" if noindex else "index, follow, max-image-preview:large", jsonld=jsonld)
             + HEADER.format(links=links, cta_on=" on" if active == "contact" else "")
             + body.rstrip() + "\n\n"
             + FOOTER
@@ -123,6 +187,17 @@ def build():
         out = ROOT / src.name
         out.write_text(html, encoding="utf-8")
         print("généré :", out.name)
+
+    # Plan du site pour les moteurs de recherche
+    today = datetime.date.today().isoformat()
+    sitemap.sort(key=lambda u: (-u[1], u[0]))
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u, prio in sitemap:
+        xml.append(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod><priority>{prio}</priority></url>")
+    xml.append("</urlset>")
+    (ROOT / "sitemap.xml").write_text("\n".join(xml) + "\n", encoding="utf-8")
+    print("généré : sitemap.xml (", len(sitemap), "pages )")
 
 
 if __name__ == "__main__":
