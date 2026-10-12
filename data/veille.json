@@ -1,5 +1,5 @@
 {
-  "miseAJour": "2026-10-10",
+  "miseAJour": "2026-10-12",
   "fiches": [
     {
       "type": "salon",
@@ -15,40 +15,92 @@
       "resume_ar": "بقصر المعارض الصنوبر البحري (جناح فلسطين)، مع محاضرات حول استقرار الشبكات والشبكات المصغّرة والرقمنة والتزامن الزمني."
     },
     {
-      "type": "article",
-      "date": "05.10.2026",
-      "source": "CapMad",
-      "titre": "NAPEC 2026 à Oran : plus de 450 exposants autour de l'énergie et de l'hydrogène",
-      "resume": "La 14e édition s'est tenue du 5 au 7 octobre au centre des conventions d'Oran, autour de la combinaison des renouvelables et des ressources fossiles.",
-      "lien": "https://www.capmad.com/article/oran-plus-de-450-exposants-attendus-au-napec-2026",
-      "titre_en": "NAPEC 2026 in Oran: more than 450 exhibitors focused on energy and hydrogen",
-      "resume_en": "The 14th edition was held from 5 to 7 October at the Oran convention centre, on combining renewables with fossil resources.",
-      "titre_ar": "نابك 2026 بوهران: أكثر من 450 عارضًا حول الطاقة والهيدروجين",
-      "resume_ar": "انعقدت الطبعة الرابعة عشرة من 5 إلى 7 أكتوبر بمركز الاتفاقيات بوهران، حول الجمع بين الطاقات المتجددة والموارد الأحفورية."
+      "type": "salon",
+      "date": "10.11.2026",
+      "dateFin": "12.11.2026",
+      "source": "Délégués commerciaux du Canada",
+      "titre": "Enlit Europe 2026 : le grand rendez-vous européen des réseaux électriques se tient à Vienne",
+      "resume": "Programme principal à la Messe Wien du 10 au 12 novembre, précédé d'activités associées qui débutent à Zurich le 9 novembre.",
+      "lien": "https://www.tradecommissioner.gc.ca/en/trade-events-training/2026/10/enlit-europe.html",
+      "titre_en": "Enlit Europe 2026: Europe's leading power grid event takes place in Vienna",
+      "resume_en": "Main programme at Messe Wien from 10 to 12 November, preceded by related events starting in Zurich on 9 November.",
+      "titre_ar": "Enlit Europe 2026: الموعد الأوروبي الأبرز للشبكات الكهربائية في فيينا",
+      "resume_ar": "البرنامج الرئيسي في معرض Messe Wien من 10 إلى 12 نوفمبر، تسبقه أنشطة مرافقة تنطلق في زيوريخ يوم 9 نوفمبر."
+    },
+    {
+      "type": "salon",
+      "date": "16.11.2026",
+      "dateFin": "19.11.2026",
+      "source": "Elan Expo",
+      "titre": "Electricity Algeria Expo 2026 : le salon de l'électricité et des postes électriques revient à Alger",
+      "resume": "12e édition au Palais des expositions de la SAFEX : production, réseaux et postes, automatismes, électronique de puissance et supervision, avec 15 conférences.",
+      "lien": "https://elanexpo.net/electricityalgeria",
+      "titre_en": "Electricity Algeria Expo 2026: the electricity and substation fair returns to Algiers",
+      "resume_en": "12th edition at the SAFEX exhibition centre: generation, grids and substations, automation, power electronics and supervision, with 15 conferences.",
+      "titre_ar": "معرض Electricity Algeria Expo 2026: صالون الكهرباء والمحطات الكهربائية يعود إلى الجزائر العاصمة",
+      "resume_ar": "الطبعة الثانية عشرة بقصر المعارض SAFEX: الإنتاج، الشبكات والمحطات، الأتمتة، إلكترونيات القدرة والإشراف، مع 15 محاضرة."
+    },
+    {
+      "type": "salon",
+      "date": "16.11.2026",
+      "dateFin": "19.11.2026",
+      "source": "Global Trade Fairs",
+      "titre": "Saudi Elenex 2026 : 27e salon de l'électricité et de l'énergie à Riyad",
+      "resume": "Au Riyadh International Convention & Exhibition Center, consacré à l'électricité, à l'éclairage et à l'énergie. Entrée libre.",
+      "lien": "https://www.globaltradefairs.com/tradefairs/event-details/saudi-elenex-2026",
+      "titre_en": "Saudi Elenex 2026: 27th electricity and energy exhibition in Riyadh",
+      "resume_en": "At the Riyadh International Convention & Exhibition Center, covering electricity, lighting and energy. Free admission.",
+      "titre_ar": "Saudi Elenex 2026: المعرض السابع والعشرون للكهرباء والطاقة في الرياض",
+      "resume_ar": "بمركز الرياض الدولي للمؤتمرات والمعارض، مخصص للكهرباء والإنارة والطاقة. الدخول مجاني."
+    },
+    {
+      "type": "salon",
+      "date": "03.12.2026",
+      "dateFin": "05.12.2026",
+      "source": "EP China",
+      "titre": "EP Shanghai 2026 : 33e salon chinois des équipements et technologies électriques",
+      "resume": "Au Shanghai New International Expo Center : transport et distribution, automatisation, stockage, centrales virtuelles et micro-réseaux.",
+      "lien": "https://www.epchinashow.com/EP/press/showupdatenews/eng?news=70",
+      "titre_en": "EP Shanghai 2026: 33rd Chinese electrical equipment and technology exhibition",
+      "resume_en": "At the Shanghai New International Expo Center: transmission and distribution, automation, storage, virtual power plants and microgrids.",
+      "titre_ar": "EP Shanghai 2026: المعرض الصيني الثالث والثلاثون للتجهيزات والتقنيات الكهربائية",
+      "resume_ar": "بمركز شنغهاي الدولي الجديد للمعارض: النقل والتوزيع، الأتمتة، التخزين، محطات الطاقة الافتراضية والشبكات المصغّرة."
     },
     {
       "type": "article",
-      "date": "30.09.2026",
-      "source": "Algérie Eco",
-      "titre": "Sonelgaz lance un appel d'offres pour deux parcs éoliens de 100 MW à Laghouat et Djelfa",
-      "resume": "L'appel est ouvert aux entreprises nationales et étrangères. Les offres sont attendues au plus tard le 25 novembre 2026.",
-      "lien": "https://algerie-eco.com/2026/09/30/algerie-sonelgaz-lance-un-appel-doffres-pour-deux-fermes-eoliennes-de-100-mw-chacune/",
-      "titre_en": "Sonelgaz launches a tender for two 100 MW wind farms in Laghouat and Djelfa",
-      "resume_en": "The tender is open to national and foreign companies. Bids are due by 25 November 2026.",
-      "titre_ar": "سونلغاز تطلق مناقصة لإنجاز مزرعتين للرياح بقدرة 100 ميغاواط في الأغواط والجلفة",
-      "resume_ar": "المناقصة مفتوحة للشركات الوطنية والأجنبية. آخر أجل لتقديم العروض 25 نوفمبر 2026."
+      "date": "08.10.2026",
+      "source": "Switchgear Magazine",
+      "titre": "Schneider Electric présente une cellule MT pilotée par logiciel, évolutive sans intervention matérielle",
+      "resume": "Gammes AirSeT et PremSet : moins de câblage, mise en service annoncée deux fois plus rapide, maintenance prédictive. Commercialisation prévue en 2028.",
+      "lien": "https://switchgear-magazine.com/news/technology/schneider-unveils-software-defined-mv-switchgear-2/",
+      "titre_en": "Schneider Electric unveils software-defined MV switchgear that can evolve without hardware changes",
+      "resume_en": "AirSeT and PremSet ranges: less wiring, commissioning said to be twice as fast, predictive maintenance. Market launch planned for 2028.",
+      "titre_ar": "Schneider Electric تقدّم خلية جهد متوسط يُتحكَّم فيها برمجيًا وقابلة للتطوير دون تدخل مادي",
+      "resume_ar": "مجموعتا AirSeT وPremSet: توصيلات أقل، تشغيل أسرع بمرتين حسب الشركة، وصيانة تنبؤية. التسويق مرتقب في 2028."
     },
     {
       "type": "article",
-      "date": "19.09.2026",
-      "source": "WebManagerCenter",
-      "titre": "Solaire et hydrogène : l'Algérie pourrait connaître la plus forte croissance renouvelable d'Afrique",
-      "resume": "Une étude de marché place l'Algérie en tête sur 2026-2031. 400 MW solaires ont déjà été mis en service cette année.",
-      "lien": "https://www.webmanagercenter.com/2026/09/19/573012/energie-solaire-et-hydrogene-la-percee-energetique-de-lalgerie/",
-      "titre_en": "Solar and hydrogen: Algeria could see the fastest renewable growth in Africa",
-      "resume_en": "A market study ranks Algeria first for 2026–2031. 400 MW of solar capacity has already been commissioned this year.",
-      "titre_ar": "الطاقة الشمسية والهيدروجين: الجزائر قد تسجّل أسرع نمو للطاقات المتجددة في إفريقيا",
-      "resume_ar": "دراسة سوقية تضع الجزائر في الصدارة للفترة 2026-2031. وقد تم تشغيل 400 ميغاواط من الطاقة الشمسية هذا العام."
+      "date": "01.10.2026",
+      "source": "TSA Algérie",
+      "titre": "Sonelgaz lance un appel d'offres pour deux parcs éoliens de 100 MW, raccordement au réseau inclus",
+      "resume": "La filiale renouvelables de Sonelgaz consulte pour deux fermes à Laghouat et Djelfa, études et raccordement au réseau de transport compris. Offres attendues le 25 novembre.",
+      "lien": "https://www.tsa-algerie.com/lalgerie-lance-le-processus-de-construction-de-deux-fermes-eoliennes-de-100-mw-chacune/",
+      "titre_en": "Sonelgaz launches a tender for two 100 MW wind farms, grid connection included",
+      "resume_en": "Sonelgaz's renewables subsidiary is seeking bids for two farms in Laghouat and Djelfa, including studies and connection to the transmission grid. Bids due 25 November.",
+      "titre_ar": "سونلغاز تطلق مناقصة لإنجاز مزرعتين للرياح بقدرة 100 ميغاواط مع الربط بالشبكة",
+      "resume_ar": "فرع الطاقات المتجددة لسونلغاز يطلب عروضًا لمزرعتين في الأغواط والجلفة، تشمل الدراسات والربط بشبكة النقل. آخر أجل للعروض 25 نوفمبر."
+    },
+    {
+      "type": "article",
+      "date": "04.09.2026",
+      "source": "Tadamsa News",
+      "titre": "Algérie : 2,74 GW raccordés au réseau en 2026, l'extension annuelle la plus forte de son histoire",
+      "resume": "Le solaire (environ 1,48 GW) et le cycle combiné de Djelfa portent l'essentiel de la hausse ; 58 projets électriques totalisant 9,88 Md$ restent en portefeuille.",
+      "lien": "https://tadamsanews.dz/%D8%AA%D9%88%D8%B3%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9/",
+      "titre_en": "Algeria: 2.74 GW connected to the grid in 2026, the largest annual expansion in its history",
+      "resume_en": "Solar (about 1.48 GW) and the Djelfa combined-cycle plant account for most of the increase; 58 power projects worth $9.88 billion remain in the pipeline.",
+      "titre_ar": "الجزائر: ربط 2,74 جيغاواط بالشبكة في 2026، أكبر توسعة سنوية في تاريخها",
+      "resume_ar": "الطاقة الشمسية (نحو 1,48 جيغاواط) ومحطة الدورة المركبة بالجلفة وراء معظم الزيادة؛ ولا يزال 58 مشروعًا كهربائيًا بقيمة 9,88 مليار دولار قيد الإنجاز."
     }
   ]
 }
