@@ -167,7 +167,7 @@
           var x = padL + i * bw + bw * 0.22, w = bw * 0.56, y = base - h;
           var rect = document.createElementNS(ns, 'rect');
           rect.setAttribute('x', x); rect.setAttribute('y', y); rect.setAttribute('width', w); rect.setAttribute('height', h);
-          rect.setAttribute('rx', 3); rect.setAttribute('fill', i === rows.length - 1 ? '#F07A2B' : '#F6B48A');
+          rect.setAttribute('rx', 3); rect.setAttribute('fill', i === rows.length - 1 ? '#FF6A00' : '#FFB27A');
           svg.appendChild(rect);
           pts.push((x + w / 2) + ' ' + (y - 2));
           var t = document.createElementNS(ns, 'text');

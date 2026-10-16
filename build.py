@@ -26,7 +26,7 @@ ORG_JSONLD = {
     "slogan": "Reliable energy infrastructure",
     "description": "Intégrateur algérien de systèmes électriques et numériques : contrôle-commande numérique des postes HT/MT, intégration IEC 61850, protections et rétrofit Sepam, tableaux MT/BT, supervision SCADA, télécoms industrielles, génie civil et énergies renouvelables.",
     "url": SITE + "/",
-    "logo": SITE + "/images/logo-sefar-couleur.png",
+    "logo": SITE + "/images/logo-sefar-couleur-v2.png",
     "image": SITE + "/images/slide-infrastructures.jpg",
     "foundingDate": "2019",
     "telephone": "+213 28 10 31 32",
@@ -126,8 +126,8 @@ HEAD = """<!doctype html>
 <meta property="og:description" content="{description}">
 <meta property="og:image" content="{site}/images/slide-infrastructures.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" href="/images/favicon.png">
-<link rel="apple-touch-icon" href="/images/favicon.png">{jsonld}{fonts}
+<link rel="icon" type="image/png" href="/images/favicon-v2.png">
+<link rel="apple-touch-icon" href="/images/favicon-v2.png">{jsonld}{fonts}
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -141,7 +141,7 @@ AR_FONTS = """
 HEADER = """<header class="header">
   <div class="wrap">
     <a class="brand" href="{home}" aria-label="{home_aria}">
-      <img src="/images/logo-sefar-couleur.png" alt="Séfar Système" width="208" height="92">
+      <img src="/images/logo-sefar-couleur-v2.png" alt="Séfar Système" width="208" height="92">
       <span class="tagline" lang="en">Reliable energy<br>infrastructure</span>
     </a>
     <button class="burger" aria-label="{menu}" aria-expanded="false" aria-controls="menu">
@@ -164,7 +164,7 @@ FOOTER = """<footer class="footer">
   <div class="wrap">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="/images/logo-sefar-couleur.png" alt="Séfar Système" width="230" height="101">
+        <img src="/images/logo-sefar-couleur-v2.png" alt="Séfar Système" width="230" height="101">
         <span class="motto" lang="en">Reliable energy<br>infrastructure</span>
         <p>{f_intro}</p>
         <div class="norms" dir="ltr"><span>IEC 61850</span><span>IEC 60870-5-104</span><span>MODBUS</span></div>
