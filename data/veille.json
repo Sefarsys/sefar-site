@@ -1,19 +1,6 @@
 {
-  "miseAJour": "2026-10-12",
+  "miseAJour": "2026-10-19",
   "fiches": [
-    {
-      "type": "salon",
-      "date": "13.10.2026",
-      "dateFin": "15.10.2026",
-      "source": "Algeria Exhibitions",
-      "titre": "Kahraba Expo 2026 : salon international de l'électricité et des énergies renouvelables, du 13 au 15 octobre à Alger",
-      "resume": "Au Palais des expositions des Pins Maritimes (pavillon Palestine), avec des conférences sur la stabilité des réseaux, les micro-réseaux, la digitalisation et la synchronisation horaire.",
-      "lien": "https://www.algeriaexhibitions.dz/en/events/KAHRABA-2026",
-      "titre_en": "Kahraba Expo 2026: international electricity and renewable energy fair, 13–15 October in Algiers",
-      "resume_en": "At the Pins Maritimes exhibition centre (Palestine hall), with conferences on grid stability, microgrids, digitalisation and time synchronisation.",
-      "titre_ar": "معرض كهرباء إكسبو 2026: المعرض الدولي للكهرباء والطاقات المتجددة، من 13 إلى 15 أكتوبر بالجزائر العاصمة",
-      "resume_ar": "بقصر المعارض الصنوبر البحري (جناح فلسطين)، مع محاضرات حول استقرار الشبكات والشبكات المصغّرة والرقمنة والتزامن الزمني."
-    },
     {
       "type": "salon",
       "date": "10.11.2026",
@@ -68,39 +55,51 @@
     },
     {
       "type": "article",
-      "date": "08.10.2026",
-      "source": "Switchgear Magazine",
-      "titre": "Schneider Electric présente une cellule MT pilotée par logiciel, évolutive sans intervention matérielle",
-      "resume": "Gammes AirSeT et PremSet : moins de câblage, mise en service annoncée deux fois plus rapide, maintenance prédictive. Commercialisation prévue en 2028.",
-      "lien": "https://switchgear-magazine.com/news/technology/schneider-unveils-software-defined-mv-switchgear-2/",
-      "titre_en": "Schneider Electric unveils software-defined MV switchgear that can evolve without hardware changes",
-      "resume_en": "AirSeT and PremSet ranges: less wiring, commissioning said to be twice as fast, predictive maintenance. Market launch planned for 2028.",
-      "titre_ar": "Schneider Electric تقدّم خلية جهد متوسط يُتحكَّم فيها برمجيًا وقابلة للتطوير دون تدخل مادي",
-      "resume_ar": "مجموعتا AirSeT وPremSet: توصيلات أقل، تشغيل أسرع بمرتين حسب الشركة، وصيانة تنبؤية. التسويق مرتقب في 2028."
+      "date": "05.10.2026",
+      "source": "Managers",
+      "titre": "Alger et Tunis avancent sur une centrale à cycle combiné de 1 400 MW",
+      "resume": "Des discussions techniques vont s'ouvrir entre la STEG et Sonelgaz ; le site, le coût, le financement et le calendrier du projet restent à fixer.",
+      "lien": "https://managers.tn/2026/10/05/energie-la-tunisie-et-lalgerie-avancent-sur-une-centrale-de-1-400-mw/",
+      "titre_en": "Algiers and Tunis move forward on a 1,400 MW combined-cycle power plant",
+      "resume_en": "Technical talks are due to open between STEG and Sonelgaz; the site, cost, financing and schedule of the project have yet to be set.",
+      "titre_ar": "الجزائر وتونس تتقدمان في مشروع محطة بالدورة المركبة بقدرة 1400 ميغاواط",
+      "resume_ar": "ستنطلق محادثات تقنية بين الشركة التونسية للكهرباء والغاز وسونلغاز، فيما لم يُحدَّد بعد موقع المشروع وتكلفته وتمويله وجدوله الزمني."
     },
     {
       "type": "article",
-      "date": "01.10.2026",
-      "source": "TSA Algérie",
-      "titre": "Sonelgaz lance un appel d'offres pour deux parcs éoliens de 100 MW, raccordement au réseau inclus",
-      "resume": "La filiale renouvelables de Sonelgaz consulte pour deux fermes à Laghouat et Djelfa, études et raccordement au réseau de transport compris. Offres attendues le 25 novembre.",
-      "lien": "https://www.tsa-algerie.com/lalgerie-lance-le-processus-de-construction-de-deux-fermes-eoliennes-de-100-mw-chacune/",
-      "titre_en": "Sonelgaz launches a tender for two 100 MW wind farms, grid connection included",
-      "resume_en": "Sonelgaz's renewables subsidiary is seeking bids for two farms in Laghouat and Djelfa, including studies and connection to the transmission grid. Bids due 25 November.",
-      "titre_ar": "سونلغاز تطلق مناقصة لإنجاز مزرعتين للرياح بقدرة 100 ميغاواط مع الربط بالشبكة",
-      "resume_ar": "فرع الطاقات المتجددة لسونلغاز يطلب عروضًا لمزرعتين في الأغواط والجلفة، تشمل الدراسات والربط بشبكة النقل. آخر أجل للعروض 25 نوفمبر."
+      "date": "03.10.2026",
+      "source": "L'Express DZ",
+      "titre": "Sonelgaz et le sénégalais Senelec signent un mémorandum de coopération",
+      "resume": "Accord signé à Alger, suivi d'une visite du centre national de conduite du réseau. Un accord intergouvernemental est prévu à Dakar en décembre.",
+      "lien": "https://www.expressdz.dz/2026/10/03/signature-dun-memorandum-dentente-entre-sonelgaz-et-senelec/",
+      "titre_en": "Sonelgaz and Senegal's Senelec sign a cooperation memorandum",
+      "resume_en": "Signed in Algiers and followed by a visit to the national grid control centre. An intergovernmental agreement is planned in Dakar in December.",
+      "titre_ar": "سونلغاز والشركة السنغالية Senelec توقعان مذكرة تعاون",
+      "resume_ar": "وُقّعت المذكرة بالجزائر العاصمة، تلتها زيارة للمركز الوطني لقيادة الشبكة. ومن المرتقب توقيع اتفاق حكومي في داكار في ديسمبر."
     },
     {
       "type": "article",
-      "date": "04.09.2026",
-      "source": "Tadamsa News",
-      "titre": "Algérie : 2,74 GW raccordés au réseau en 2026, l'extension annuelle la plus forte de son histoire",
-      "resume": "Le solaire (environ 1,48 GW) et le cycle combiné de Djelfa portent l'essentiel de la hausse ; 58 projets électriques totalisant 9,88 Md$ restent en portefeuille.",
-      "lien": "https://tadamsanews.dz/%D8%AA%D9%88%D8%B3%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9/",
-      "titre_en": "Algeria: 2.74 GW connected to the grid in 2026, the largest annual expansion in its history",
-      "resume_en": "Solar (about 1.48 GW) and the Djelfa combined-cycle plant account for most of the increase; 58 power projects worth $9.88 billion remain in the pipeline.",
-      "titre_ar": "الجزائر: ربط 2,74 جيغاواط بالشبكة في 2026، أكبر توسعة سنوية في تاريخها",
-      "resume_ar": "الطاقة الشمسية (نحو 1,48 جيغاواط) ومحطة الدورة المركبة بالجلفة وراء معظم الزيادة؛ ولا يزال 58 مشروعًا كهربائيًا بقيمة 9,88 مليار دولار قيد الإنجاز."
+      "date": "30.09.2026",
+      "source": "Global Transmission Report",
+      "titre": "Roumanie : Transelectrica va convertir le poste 220/110/20 kV d'Alba Iulia en poste numérique",
+      "resume": "Contrat d'environ 90 M€ confié au consortium Electromontaj–Vodafone Romania, pour 44 mois de travaux et une fin prévue en mai 2030.",
+      "lien": "https://globaltransmission.info/romanias-transelectrica-launches-eur90-million-rehabilitation-of-alba-iulia-digital-substation/",
+      "titre_en": "Romania: Transelectrica to convert the 220/110/20 kV Alba Iulia substation into a digital substation",
+      "resume_en": "A contract of about EUR90 million awarded to an Electromontaj–Vodafone Romania consortium, for 44 months of works ending in May 2030.",
+      "titre_ar": "رومانيا: Transelectrica تحوّل محطة ألبا يوليا 220/110/20 كيلوفولط إلى محطة رقمية",
+      "resume_ar": "عقد بقيمة نحو 90 مليون يورو لتجمّع Electromontaj وVodafone Romania، لأشغال تدوم 44 شهرًا وتنتهي في ماي 2030."
+    },
+    {
+      "type": "article",
+      "date": "24.08.2026",
+      "source": "Zawya",
+      "titre": "Koweït : attribution attendue pour trois postes 132/11 kV destinés à un centre de données",
+      "resume": "Le ministère de l'Électricité prévoit d'attribuer en octobre 2026 le marché couvrant fourniture, installation, départs et génie civil des trois postes.",
+      "lien": "https://www.zawya.com/en/projects/utilities/kuwait-expected-to-award-data-centre-substation-contract-in-q4-465693",
+      "titre_en": "Kuwait: contract for three 132/11 kV substations serving a data centre expected to be awarded",
+      "resume_en": "The Ministry of Electricity plans to award in October 2026 the contract covering supply, installation, feeders and civil works for the three substations.",
+      "titre_ar": "الكويت: ترسية مرتقبة لعقد ثلاث محطات 132/11 كيلوفولط لمركز بيانات",
+      "resume_ar": "تعتزم وزارة الكهرباء ترسية العقد في أكتوبر 2026، ويشمل التوريد والتركيب والمخارج والهندسة المدنية للمحطات الثلاث."
     }
   ]
 }
