@@ -1,5 +1,5 @@
 {
-  "miseAJour": "2026-10-19",
+  "miseAJour": "2026-10-26",
   "fiches": [
     {
       "type": "salon",
@@ -41,65 +41,64 @@
       "resume_ar": "بمركز الرياض الدولي للمؤتمرات والمعارض، مخصص للكهرباء والإنارة والطاقة. الدخول مجاني."
     },
     {
-      "type": "salon",
-      "date": "03.12.2026",
-      "dateFin": "05.12.2026",
-      "source": "EP China",
-      "titre": "EP Shanghai 2026 : 33e salon chinois des équipements et technologies électriques",
-      "resume": "Au Shanghai New International Expo Center : transport et distribution, automatisation, stockage, centrales virtuelles et micro-réseaux.",
-      "lien": "https://www.epchinashow.com/EP/press/showupdatenews/eng?news=70",
-      "titre_en": "EP Shanghai 2026: 33rd Chinese electrical equipment and technology exhibition",
-      "resume_en": "At the Shanghai New International Expo Center: transmission and distribution, automation, storage, virtual power plants and microgrids.",
-      "titre_ar": "EP Shanghai 2026: المعرض الصيني الثالث والثلاثون للتجهيزات والتقنيات الكهربائية",
-      "resume_ar": "بمركز شنغهاي الدولي الجديد للمعارض: النقل والتوزيع، الأتمتة، التخزين، محطات الطاقة الافتراضية والشبكات المصغّرة."
+      "type": "article",
+      "date": "25.10.2026",
+      "source": "Echorouk",
+      "titre": "Le ministre de l'Énergie inaugure la centrale solaire de Fouleya, 300 MWc, à El Oued",
+      "resume": "Présentée comme la plus grande centrale photovoltaïque du pays, elle est inaugurée par Mourad Adjal lors d'une visite de travail dans la wilaya d'El Oued.",
+      "lien": "https://www.echoroukonline.com/%D8%B9%D8%AC%D8%A7%D9%84-%D9%8A%D8%AF%D8%B4%D9%86-%D9%85%D8%AD%D8%B7%D8%A9-%D8%B4%D9%85%D8%B3%D9%8A%D8%A9-%D8%A8%D9%82%D8%AF%D8%B1%D8%A9-300-%D9%85%D9%8A%D8%BA%D8%A7%D9%88%D8%A7%D8%B7-%D9%81%D9%8A",
+      "titre_en": "Energy Minister inaugurates the 300 MWp Fouleya solar plant in El Oued",
+      "resume_en": "Presented as the country's largest photovoltaic plant, it is inaugurated by Mourad Adjal during a working visit to the wilaya of El Oued.",
+      "titre_ar": "وزير الطاقة يدشن محطة الفولية للطاقة الشمسية بقدرة 300 ميغاواط ذروة بالوادي",
+      "resume_ar": "تُقدَّم كأكبر محطة كهروضوئية في البلاد، ويدشنها الوزير مراد عجال خلال زيارة عمل إلى ولاية الوادي."
     },
     {
       "type": "article",
-      "date": "05.10.2026",
-      "source": "Managers",
-      "titre": "Alger et Tunis avancent sur une centrale à cycle combiné de 1 400 MW",
-      "resume": "Des discussions techniques vont s'ouvrir entre la STEG et Sonelgaz ; le site, le coût, le financement et le calendrier du projet restent à fixer.",
-      "lien": "https://managers.tn/2026/10/05/energie-la-tunisie-et-lalgerie-avancent-sur-une-centrale-de-1-400-mw/",
-      "titre_en": "Algiers and Tunis move forward on a 1,400 MW combined-cycle power plant",
-      "resume_en": "Technical talks are due to open between STEG and Sonelgaz; the site, cost, financing and schedule of the project have yet to be set.",
-      "titre_ar": "الجزائر وتونس تتقدمان في مشروع محطة بالدورة المركبة بقدرة 1400 ميغاواط",
-      "resume_ar": "ستنطلق محادثات تقنية بين الشركة التونسية للكهرباء والغاز وسونلغاز، فيما لم يُحدَّد بعد موقع المشروع وتكلفته وتمويله وجدوله الزمني."
+      "date": "21.10.2026",
+      "source": "Just-InfoDZ",
+      "titre": "Sonelgaz prévoit 624 milliards de dinars d'investissements en 2027",
+      "resume": "Annoncé devant l'APN, le programme vise de nouvelles capacités solaires et thermiques et le renforcement du réseau haute tension, après un pic de 21 828 MW cet été.",
+      "lien": "https://just-infodz.com/algerie-sonelgaz-energie-2027/",
+      "titre_en": "Sonelgaz plans DZD 624 billion of investment in 2027",
+      "resume_en": "Announced before the National Assembly, the programme targets new solar and thermal capacity and a stronger high-voltage grid, after a 21,828 MW peak this summer.",
+      "titre_ar": "سونلغاز تعتزم استثمار 624 مليار دينار في 2027",
+      "resume_ar": "أُعلن البرنامج أمام المجلس الشعبي الوطني، ويستهدف قدرات شمسية وحرارية جديدة وتعزيز شبكة الجهد العالي، بعد ذروة بلغت 21828 ميغاواط هذا الصيف."
     },
     {
       "type": "article",
-      "date": "03.10.2026",
-      "source": "L'Express DZ",
-      "titre": "Sonelgaz et le sénégalais Senelec signent un mémorandum de coopération",
-      "resume": "Accord signé à Alger, suivi d'une visite du centre national de conduite du réseau. Un accord intergouvernemental est prévu à Dakar en décembre.",
-      "lien": "https://www.expressdz.dz/2026/10/03/signature-dun-memorandum-dentente-entre-sonelgaz-et-senelec/",
-      "titre_en": "Sonelgaz and Senegal's Senelec sign a cooperation memorandum",
-      "resume_en": "Signed in Algiers and followed by a visit to the national grid control centre. An intergovernmental agreement is planned in Dakar in December.",
-      "titre_ar": "سونلغاز والشركة السنغالية Senelec توقعان مذكرة تعاون",
-      "resume_ar": "وُقّعت المذكرة بالجزائر العاصمة، تلتها زيارة للمركز الوطني لقيادة الشبكة. ومن المرتقب توقيع اتفاق حكومي في داكار في ديسمبر."
+      "date": "21.10.2026",
+      "source": "Attaqa",
+      "titre": "Algérie : cinq grands projets électriques attendus en 2027",
+      "resume": "Sont attendus 2 440 MW de solaire et des mises en service partielles des centrales de Djelfa, Oumache 3 et Mostaganem.",
+      "lien": "https://attaqa.net/2026/10/21/%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%8A%D8%AA%D8%B1%D9%82%D8%A8-5-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7/",
+      "titre_en": "Algeria: five major power projects expected in 2027",
+      "resume_en": "2,440 MW of solar capacity is expected, along with partial commissioning of the Djelfa, Oumache 3 and Mostaganem plants.",
+      "titre_ar": "الجزائر: خمسة مشاريع كهربائية كبرى مرتقبة في 2027",
+      "resume_ar": "يُرتقب إنجاز 2440 ميغاواط من الطاقة الشمسية وتشغيل أجزاء من محطات الجلفة وأوماش 3 ومستغانم."
     },
     {
       "type": "article",
-      "date": "30.09.2026",
-      "source": "Global Transmission Report",
-      "titre": "Roumanie : Transelectrica va convertir le poste 220/110/20 kV d'Alba Iulia en poste numérique",
-      "resume": "Contrat d'environ 90 M€ confié au consortium Electromontaj–Vodafone Romania, pour 44 mois de travaux et une fin prévue en mai 2030.",
-      "lien": "https://globaltransmission.info/romanias-transelectrica-launches-eur90-million-rehabilitation-of-alba-iulia-digital-substation/",
-      "titre_en": "Romania: Transelectrica to convert the 220/110/20 kV Alba Iulia substation into a digital substation",
-      "resume_en": "A contract of about EUR90 million awarded to an Electromontaj–Vodafone Romania consortium, for 44 months of works ending in May 2030.",
-      "titre_ar": "رومانيا: Transelectrica تحوّل محطة ألبا يوليا 220/110/20 كيلوفولط إلى محطة رقمية",
-      "resume_ar": "عقد بقيمة نحو 90 مليون يورو لتجمّع Electromontaj وVodafone Romania، لأشغال تدوم 44 شهرًا وتنتهي في ماي 2030."
+      "date": "19.10.2026",
+      "source": "Algérie Eco",
+      "titre": "AI-Link : le câble électrique Algérie–Italie entre en concertation publique",
+      "resume": "Câble sous-marin d'environ 900 km et 2 000 MW pour exporter l'électricité renouvelable du Sud algérien ; concertation en Ligurie sur le raccordement au poste de La Spezia.",
+      "lien": "https://algerie-eco.com/2026/10/19/algerie-italie-du-nouveau-concernant-le-projet-dinterconnexion-electrique/",
+      "titre_en": "AI-Link: the Algeria–Italy power cable enters public consultation",
+      "resume_en": "A subsea cable of about 900 km and 2,000 MW to export renewable power from southern Algeria; consultation in Liguria on the connection to the La Spezia substation.",
+      "titre_ar": "AI-Link: الكابل الكهربائي بين الجزائر وإيطاليا يدخل مرحلة التشاور العمومي",
+      "resume_ar": "كابل بحري بطول نحو 900 كلم وقدرة 2000 ميغاواط لتصدير الكهرباء المتجددة من الجنوب الجزائري؛ تشاور في ليغوريا حول الربط بمحطة لا سبيتسيا."
     },
     {
       "type": "article",
-      "date": "24.08.2026",
-      "source": "Zawya",
-      "titre": "Koweït : attribution attendue pour trois postes 132/11 kV destinés à un centre de données",
-      "resume": "Le ministère de l'Électricité prévoit d'attribuer en octobre 2026 le marché couvrant fourniture, installation, départs et génie civil des trois postes.",
-      "lien": "https://www.zawya.com/en/projects/utilities/kuwait-expected-to-award-data-centre-substation-contract-in-q4-465693",
-      "titre_en": "Kuwait: contract for three 132/11 kV substations serving a data centre expected to be awarded",
-      "resume_en": "The Ministry of Electricity plans to award in October 2026 the contract covering supply, installation, feeders and civil works for the three substations.",
-      "titre_ar": "الكويت: ترسية مرتقبة لعقد ثلاث محطات 132/11 كيلوفولط لمركز بيانات",
-      "resume_ar": "تعتزم وزارة الكهرباء ترسية العقد في أكتوبر 2026، ويشمل التوريد والتركيب والمخارج والهندسة المدنية للمحطات الثلاث."
+      "date": "14.10.2026",
+      "source": "Digital Substation",
+      "titre": "IEC 61850 : les constructeurs testent leur interopérabilité à Utrecht (IOP 2026)",
+      "resume": "Essais multi-constructeurs de protection, d'automatisme, de configuration réseau depuis les fichiers SCD et de synchronisation horaire.",
+      "lien": "https://digitalsubstation.com/en/article/iec-61850-iop-2026-whats-happening-on-the-test-floor",
+      "titre_en": "IEC 61850: vendors test interoperability in Utrecht (IOP 2026)",
+      "resume_en": "Multi-vendor testing of protection, automation, network configuration from SCD files and time synchronisation.",
+      "titre_ar": "IEC 61850: المصنّعون يختبرون التشغيل البيني في أوتريخت (IOP 2026)",
+      "resume_ar": "اختبارات متعددة المصنّعين للحماية والأتمتة وإعداد الشبكة انطلاقًا من ملفات SCD والتزامن الزمني."
     }
   ]
 }
