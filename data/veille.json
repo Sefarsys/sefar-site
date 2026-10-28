@@ -1,5 +1,5 @@
 {
-  "miseAJour": "2026-10-26",
+  "miseAJour": "2026-10-28",
   "fiches": [
     {
       "type": "salon",
@@ -29,16 +29,16 @@
     },
     {
       "type": "salon",
-      "date": "16.11.2026",
-      "dateFin": "19.11.2026",
-      "source": "Global Trade Fairs",
-      "titre": "Saudi Elenex 2026 : 27e salon de l'électricité et de l'énergie à Riyad",
-      "resume": "Au Riyadh International Convention & Exhibition Center, consacré à l'électricité, à l'éclairage et à l'énergie. Entrée libre.",
-      "lien": "https://www.globaltradefairs.com/tradefairs/event-details/saudi-elenex-2026",
-      "titre_en": "Saudi Elenex 2026: 27th electricity and energy exhibition in Riyadh",
-      "resume_en": "At the Riyadh International Convention & Exhibition Center, covering electricity, lighting and energy. Free admission.",
-      "titre_ar": "Saudi Elenex 2026: المعرض السابع والعشرون للكهرباء والطاقة في الرياض",
-      "resume_ar": "بمركز الرياض الدولي للمؤتمرات والمعارض، مخصص للكهرباء والإنارة والطاقة. الدخول مجاني."
+      "date": "01.12.2026",
+      "dateFin": "03.12.2026",
+      "source": "Destination Algeria",
+      "titre": "SINAA Expo Industries 2026 : le salon international de l'industrie, du 1er au 3 décembre à Alger",
+      "resume": "5e édition au Palais des expositions de la SAFEX, consacrée à la production, aux équipements et aux technologies industrielles, dont l'électrotechnique et l'automatisme.",
+      "lien": "https://destination-algeria.com/evenements/sinaa-2026-salon-international-industrie-alger/",
+      "titre_en": "SINAA Expo Industries 2026: international industry fair, 1–3 December in Algiers",
+      "resume_en": "5th edition at the SAFEX exhibition centre, covering production, equipment and industrial technologies, including electrical engineering and automation.",
+      "titre_ar": "صالون SINAA Expo Industries 2026: الصالون الدولي للصناعة من 1 إلى 3 ديسمبر بالجزائر العاصمة",
+      "resume_ar": "الطبعة الخامسة بقصر المعارض SAFEX، مخصصة للإنتاج والتجهيزات والتقنيات الصناعية، بما فيها الهندسة الكهربائية والأتمتة."
     },
     {
       "type": "article",
