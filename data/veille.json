@@ -1,5 +1,5 @@
 {
-  "miseAJour": "2026-10-28",
+  "miseAJour": "2026-11-02",
   "fiches": [
     {
       "type": "salon",
@@ -29,6 +29,19 @@
     },
     {
       "type": "salon",
+      "date": "23.11.2026",
+      "dateFin": "26.11.2026",
+      "source": "EventsEye",
+      "titre": "ALGEST 2026 : salon international de la sous-traitance industrielle, du 23 au 26 novembre à Alger",
+      "resume": "Au Palais des expositions de la SAFEX, rendez-vous des donneurs d'ordres et des sous-traitants de l'industrie algérienne.",
+      "lien": "https://www.eventseye.com/fairs/c1_trade-shows_algeria.html",
+      "titre_en": "ALGEST 2026: international industrial subcontracting fair, 23–26 November in Algiers",
+      "resume_en": "At the SAFEX exhibition centre, a meeting point for clients and subcontractors of Algerian industry.",
+      "titre_ar": "ALGEST 2026: الصالون الدولي للمناولة الصناعية من 23 إلى 26 نوفمبر بالجزائر العاصمة",
+      "resume_ar": "بقصر المعارض SAFEX، موعد يجمع أصحاب الطلبات والمناولين في الصناعة الجزائرية."
+    },
+    {
+      "type": "salon",
       "date": "01.12.2026",
       "dateFin": "03.12.2026",
       "source": "Destination Algeria",
@@ -41,40 +54,42 @@
       "resume_ar": "الطبعة الخامسة بقصر المعارض SAFEX، مخصصة للإنتاج والتجهيزات والتقنيات الصناعية، بما فيها الهندسة الكهربائية والأتمتة."
     },
     {
-      "type": "article",
-      "date": "25.10.2026",
-      "source": "Echorouk",
-      "titre": "Le ministre de l'Énergie inaugure la centrale solaire de Fouleya, 300 MWc, à El Oued",
-      "resume": "Présentée comme la plus grande centrale photovoltaïque du pays, elle est inaugurée par Mourad Adjal lors d'une visite de travail dans la wilaya d'El Oued.",
-      "lien": "https://www.echoroukonline.com/%D8%B9%D8%AC%D8%A7%D9%84-%D9%8A%D8%AF%D8%B4%D9%86-%D9%85%D8%AD%D8%B7%D8%A9-%D8%B4%D9%85%D8%B3%D9%8A%D8%A9-%D8%A8%D9%82%D8%AF%D8%B1%D8%A9-300-%D9%85%D9%8A%D8%BA%D8%A7%D9%88%D8%A7%D8%B7-%D9%81%D9%8A",
-      "titre_en": "Energy Minister inaugurates the 300 MWp Fouleya solar plant in El Oued",
-      "resume_en": "Presented as the country's largest photovoltaic plant, it is inaugurated by Mourad Adjal during a working visit to the wilaya of El Oued.",
-      "titre_ar": "وزير الطاقة يدشن محطة الفولية للطاقة الشمسية بقدرة 300 ميغاواط ذروة بالوادي",
-      "resume_ar": "تُقدَّم كأكبر محطة كهروضوئية في البلاد، ويدشنها الوزير مراد عجال خلال زيارة عمل إلى ولاية الوادي."
+      "type": "salon",
+      "date": "14.12.2026",
+      "dateFin": "17.12.2026",
+      "source": "EventsEye",
+      "titre": "Industry Grand Expo 2026 : salon de l'industrie, du 14 au 17 décembre à Oran",
+      "resume": "Au Centre des conventions Mohamed Benahmed : fournisseurs industriels, machines, équipements et solutions pour l'industrie.",
+      "lien": "https://www.eventseye.com/fairs/c1_trade-shows_algeria.html",
+      "titre_en": "Industry Grand Expo 2026: industry fair, 14–17 December in Oran",
+      "resume_en": "At the Mohamed Benahmed Convention Centre: industrial suppliers, machinery, equipment and solutions for industry.",
+      "titre_ar": "Industry Grand Expo 2026: صالون الصناعة من 14 إلى 17 ديسمبر بوهران",
+      "resume_ar": "بمركز الاتفاقيات محمد بن أحمد: موردون صناعيون وآلات وتجهيزات وحلول للصناعة."
+    },
+    {
+      "type": "salon",
+      "date": "01.02.2027",
+      "dateFin": "03.02.2027",
+      "source": "Exposale",
+      "titre": "ERA 2027 : salon international des énergies renouvelables, du 1er au 3 février à Oran",
+      "resume": "Au Centre des conventions Mohamed Benahmed, le rendez-vous algérien des énergies renouvelables, des énergies du futur et du développement durable.",
+      "lien": "https://exposale.net/fr/exhibition/era",
+      "titre_en": "ERA 2027: international renewable energy fair, 1–3 February in Oran",
+      "resume_en": "At the Mohamed Benahmed Convention Centre, Algeria's event for renewable energy, future energies and sustainable development.",
+      "titre_ar": "ERA 2027: الصالون الدولي للطاقات المتجددة من 1 إلى 3 فبراير بوهران",
+      "resume_ar": "بمركز الاتفاقيات محمد بن أحمد، الموعد الجزائري للطاقات المتجددة وطاقات المستقبل والتنمية المستدامة."
     },
     {
       "type": "article",
-      "date": "21.10.2026",
-      "source": "Just-InfoDZ",
-      "titre": "Sonelgaz prévoit 624 milliards de dinars d'investissements en 2027",
-      "resume": "Annoncé devant l'APN, le programme vise de nouvelles capacités solaires et thermiques et le renforcement du réseau haute tension, après un pic de 21 828 MW cet été.",
-      "lien": "https://just-infodz.com/algerie-sonelgaz-energie-2027/",
-      "titre_en": "Sonelgaz plans DZD 624 billion of investment in 2027",
-      "resume_en": "Announced before the National Assembly, the programme targets new solar and thermal capacity and a stronger high-voltage grid, after a 21,828 MW peak this summer.",
-      "titre_ar": "سونلغاز تعتزم استثمار 624 مليار دينار في 2027",
-      "resume_ar": "أُعلن البرنامج أمام المجلس الشعبي الوطني، ويستهدف قدرات شمسية وحرارية جديدة وتعزيز شبكة الجهد العالي، بعد ذروة بلغت 21828 ميغاواط هذا الصيف."
-    },
-    {
-      "type": "article",
-      "date": "21.10.2026",
-      "source": "Attaqa",
-      "titre": "Algérie : cinq grands projets électriques attendus en 2027",
-      "resume": "Sont attendus 2 440 MW de solaire et des mises en service partielles des centrales de Djelfa, Oumache 3 et Mostaganem.",
-      "lien": "https://attaqa.net/2026/10/21/%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%8A%D8%AA%D8%B1%D9%82%D8%A8-5-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7/",
-      "titre_en": "Algeria: five major power projects expected in 2027",
-      "resume_en": "2,440 MW of solar capacity is expected, along with partial commissioning of the Djelfa, Oumache 3 and Mostaganem plants.",
-      "titre_ar": "الجزائر: خمسة مشاريع كهربائية كبرى مرتقبة في 2027",
-      "resume_ar": "يُرتقب إنجاز 2440 ميغاواط من الطاقة الشمسية وتشغيل أجزاء من محطات الجلفة وأوماش 3 ومستغانم."
+      "date": "26.10.2026",
+      "source": "TSA Algérie",
+      "titre": "Le ministre de l'Énergie Mourad Adjal inaugure la centrale solaire d'El Foulia, 300 MW, à El Oued",
+      "resume": "Inaugurée le 26 octobre à Guemar, la plus grande centrale photovoltaïque d'Algérie, deuxième d'Afrique, est en service depuis l'été pour répondre aux pics de consommation.",
+      "lien": "https://www.tsa-algerie.com/lalgerie-inaugure-la-deuxieme-plus-grande-centrale-solaire-en-afrique/",
+      "titre_en": "Energy Minister Mourad Adjal inaugurates the 300 MW El Foulia solar plant in El Oued",
+      "resume_en": "Inaugurated on 26 October in Guemar, Algeria's largest photovoltaic plant, second in Africa, has been running since the summer to meet consumption peaks.",
+      "titre_ar": "وزير الطاقة مراد عجال يدشن محطة الفولية للطاقة الشمسية بقدرة 300 ميغاواط بالوادي",
+      "resume_ar": "دُشّنت في 26 أكتوبر بقمار، وهي أكبر محطة كهروضوئية في الجزائر والثانية في إفريقيا، وتعمل منذ الصيف لتلبية ذروة الاستهلاك."
     },
     {
       "type": "article",
@@ -87,18 +102,6 @@
       "resume_en": "A subsea cable of about 900 km and 2,000 MW to export renewable power from southern Algeria; consultation in Liguria on the connection to the La Spezia substation.",
       "titre_ar": "AI-Link: الكابل الكهربائي بين الجزائر وإيطاليا يدخل مرحلة التشاور العمومي",
       "resume_ar": "كابل بحري بطول نحو 900 كلم وقدرة 2000 ميغاواط لتصدير الكهرباء المتجددة من الجنوب الجزائري؛ تشاور في ليغوريا حول الربط بمحطة لا سبيتسيا."
-    },
-    {
-      "type": "article",
-      "date": "14.10.2026",
-      "source": "Digital Substation",
-      "titre": "IEC 61850 : les constructeurs testent leur interopérabilité à Utrecht (IOP 2026)",
-      "resume": "Essais multi-constructeurs de protection, d'automatisme, de configuration réseau depuis les fichiers SCD et de synchronisation horaire.",
-      "lien": "https://digitalsubstation.com/en/article/iec-61850-iop-2026-whats-happening-on-the-test-floor",
-      "titre_en": "IEC 61850: vendors test interoperability in Utrecht (IOP 2026)",
-      "resume_en": "Multi-vendor testing of protection, automation, network configuration from SCD files and time synchronisation.",
-      "titre_ar": "IEC 61850: المصنّعون يختبرون التشغيل البيني في أوتريخت (IOP 2026)",
-      "resume_ar": "اختبارات متعددة المصنّعين للحماية والأتمتة وإعداد الشبكة انطلاقًا من ملفات SCD والتزامن الزمني."
     }
   ]
 }
