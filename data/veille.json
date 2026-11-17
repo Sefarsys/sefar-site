@@ -1,19 +1,6 @@
 {
-  "miseAJour": "2026-11-02",
+  "miseAJour": "2026-11-17",
   "fiches": [
-    {
-      "type": "salon",
-      "date": "10.11.2026",
-      "dateFin": "12.11.2026",
-      "source": "Délégués commerciaux du Canada",
-      "titre": "Enlit Europe 2026 : le grand rendez-vous européen des réseaux électriques se tient à Vienne",
-      "resume": "Programme principal à la Messe Wien du 10 au 12 novembre, précédé d'activités associées qui débutent à Zurich le 9 novembre.",
-      "lien": "https://www.tradecommissioner.gc.ca/en/trade-events-training/2026/10/enlit-europe.html",
-      "titre_en": "Enlit Europe 2026: Europe's leading power grid event takes place in Vienna",
-      "resume_en": "Main programme at Messe Wien from 10 to 12 November, preceded by related events starting in Zurich on 9 November.",
-      "titre_ar": "Enlit Europe 2026: الموعد الأوروبي الأبرز للشبكات الكهربائية في فيينا",
-      "resume_ar": "البرنامج الرئيسي في معرض Messe Wien من 10 إلى 12 نوفمبر، تسبقه أنشطة مرافقة تنطلق في زيوريخ يوم 9 نوفمبر."
-    },
     {
       "type": "salon",
       "date": "16.11.2026",
@@ -81,27 +68,63 @@
     },
     {
       "type": "article",
-      "date": "26.10.2026",
-      "source": "TSA Algérie",
-      "titre": "Le ministre de l'Énergie Mourad Adjal inaugure la centrale solaire d'El Foulia, 300 MW, à El Oued",
-      "resume": "Inaugurée le 26 octobre à Guemar, la plus grande centrale photovoltaïque d'Algérie, deuxième d'Afrique, est en service depuis l'été pour répondre aux pics de consommation.",
-      "lien": "https://www.tsa-algerie.com/lalgerie-inaugure-la-deuxieme-plus-grande-centrale-solaire-en-afrique/",
-      "titre_en": "Energy Minister Mourad Adjal inaugurates the 300 MW El Foulia solar plant in El Oued",
-      "resume_en": "Inaugurated on 26 October in Guemar, Algeria's largest photovoltaic plant, second in Africa, has been running since the summer to meet consumption peaks.",
-      "titre_ar": "وزير الطاقة مراد عجال يدشن محطة الفولية للطاقة الشمسية بقدرة 300 ميغاواط بالوادي",
-      "resume_ar": "دُشّنت في 26 أكتوبر بقمار، وهي أكبر محطة كهروضوئية في الجزائر والثانية في إفريقيا، وتعمل منذ الصيف لتلبية ذروة الاستهلاك."
+      "date": "10.11.2026",
+      "source": "Attaqa",
+      "titre": "Interconnexion Nord-Sud 400 kV : 894 km et trois nouveaux postes 400/220 kV inspectés par le ministre",
+      "resume": "La ligne Hassi R'mel–El Meniaa–Timimoun–Adrar comprend trois nouveaux postes 400/220 kV et l'extension de celui de Hassi R'mel ; SAIEG fournit les pylônes.",
+      "lien": "https://attaqa.net/2026/11/10/%D8%AA%D8%AF%D8%B4%D9%8A%D9%86-%D9%85%D8%AD%D8%B7%D8%A9-%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/",
+      "titre_en": "400 kV North–South interconnection: 894 km and three new 400/220 kV substations inspected by the Energy Minister",
+      "resume_en": "The Hassi R'mel–El Meniaa–Timimoun–Adrar line includes three new 400/220 kV substations and an extension of Hassi R'mel; SAIEG supplies the towers.",
+      "titre_ar": "الربط شمال-جنوب 400 ك.ف: 894 كم وثلاث محطات تحويل جديدة 400/220 ك.ف يعاينها وزير الطاقة",
+      "resume_ar": "يربط الخط حاسي الرمل والمنيعة وتيميمون وأدرار، ويشمل ثلاث محطات تحويل جديدة 400/220 ك.ف وتوسعة محطة حاسي الرمل، وتوفر SAIEG الأبراج."
     },
     {
       "type": "article",
-      "date": "19.10.2026",
+      "date": "10.11.2026",
       "source": "Algérie Eco",
-      "titre": "AI-Link : le câble électrique Algérie–Italie entre en concertation publique",
-      "resume": "Câble sous-marin d'environ 900 km et 2 000 MW pour exporter l'électricité renouvelable du Sud algérien ; concertation en Ligurie sur le raccordement au poste de La Spezia.",
-      "lien": "https://algerie-eco.com/2026/10/19/algerie-italie-du-nouveau-concernant-le-projet-dinterconnexion-electrique/",
-      "titre_en": "AI-Link: the Algeria–Italy power cable enters public consultation",
-      "resume_en": "A subsea cable of about 900 km and 2,000 MW to export renewable power from southern Algeria; consultation in Liguria on the connection to the La Spezia substation.",
-      "titre_ar": "AI-Link: الكابل الكهربائي بين الجزائر وإيطاليا يدخل مرحلة التشاور العمومي",
-      "resume_ar": "كابل بحري بطول نحو 900 كلم وقدرة 2000 ميغاواط لتصدير الكهرباء المتجددة من الجنوب الجزائري؛ تشاور في ليغوريا حول الربط بمحطة لا سبيتسيا."
+      "titre": "Mourad Adjal inaugure une centrale électrique de 368 MW à Hassi R'mel (Laghouat)",
+      "resume": "Centrale au gaz naturel avec secours au gasoil, pour 31 milliards de DA ; la wilaya de Laghouat compte environ 1 200 MW conventionnels et 360 MW renouvelables.",
+      "lien": "https://algerie-eco.com/2026/11/10/une-centrale-electrique-de-368-mw-inauguree-a-hassi-rmel/",
+      "titre_en": "Mourad Adjal inaugurates a 368 MW power plant at Hassi R'mel (Laghouat)",
+      "resume_en": "A natural-gas plant with diesel backup, costing DZD 31 billion; Laghouat province now has about 1,200 MW conventional and 360 MW renewable capacity.",
+      "titre_ar": "مراد عجال يدشن محطة كهربائية بقدرة 368 ميغاواط بحاسي الرمل (الأغواط)",
+      "resume_ar": "محطة تعمل بالغاز الطبيعي مع المازوت كاحتياط، بتكلفة 31 مليار دج؛ وتضم ولاية الأغواط نحو 1200 ميغاواط تقليدية و360 ميغاواط متجددة."
+    },
+    {
+      "type": "article",
+      "date": "07.11.2026",
+      "source": "Ecomnews Med",
+      "titre": "AI-Link : bilan de la concertation sur le câble HVDC Algérie–Italie de 2 000 MW",
+      "resume": "Le projet Medlink de Zhero prévoit un câble à courant continu d'environ 900 km, alimenté par au moins 5 000 MW renouvelables dans le désert algérien ; autorisation en cours en Italie.",
+      "lien": "https://www.ecomnewsmed.com/2026/11/07/algerie-le-projet-medlink-designe-sous-le-nom-dalgeria-italia-link-ai-link-et-porte-par-la-societe-italienne-zhero-fait-lobjet-dune-concertation-publique-en-italie-il-p/",
+      "titre_en": "AI-Link: public consultation review of the 2,000 MW Algeria–Italy HVDC cable",
+      "resume_en": "Zhero's Medlink project plans a ~900 km DC cable fed by at least 5,000 MW of renewables in the Algerian desert; permitting under way in Italy.",
+      "titre_ar": "AI-Link: حصيلة التشاور حول الكابل عالي الجهد المستمر بين الجزائر وإيطاليا بقدرة 2000 ميغاواط",
+      "resume_ar": "يتضمن مشروع Medlink لشركة Zhero كابلاً بالتيار المستمر بطول نحو 900 كم، يُغذّى بما لا يقل عن 5000 ميغاواط متجددة من الصحراء الجزائرية؛ والترخيص جارٍ في إيطاليا."
+    },
+    {
+      "type": "article",
+      "date": "02.11.2026",
+      "source": "Ennahar",
+      "titre": "Électricité et hydrogène vert : Mourad Adjal reçoit le ministre néerlandais des Affaires étrangères",
+      "resume": "Les deux pays créent un groupe de travail technique pour un mémorandum sur l'hydrogène et la transition énergétique ; électricité et formation aussi au menu.",
+      "lien": "https://www.ennaharonline.com/%D8%B9%D8%AC%D8%A7%D9%84-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%87%D9%88%D9%84%D9%86%D8%AF%D8%A7-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7/",
+      "titre_en": "Electricity and green hydrogen: Mourad Adjal receives the Dutch Foreign Minister",
+      "resume_en": "The two countries set up a technical working group for a memorandum on hydrogen and the energy transition; electricity and training were also discussed.",
+      "titre_ar": "الكهرباء والهيدروجين الأخضر: مراد عجال يستقبل وزير الخارجية الهولندي",
+      "resume_ar": "اتفق البلدان على إنشاء فريق عمل تقني لإعداد مذكرة تفاهم حول الهيدروجين والانتقال الطاقوي، كما تناولت المحادثات الكهرباء والتكوين."
+    },
+    {
+      "type": "article",
+      "date": "30.09.2026",
+      "source": "Algérie Eco",
+      "titre": "Sonelgaz ER : appel d'offres pour deux fermes éoliennes de 100 MW à Laghouat et Djelfa",
+      "resume": "Le marché inclut le raccordement au réseau de transport ; remise des offres attendue le 25 novembre 2026.",
+      "lien": "https://algerie-eco.com/2026/09/30/algerie-sonelgaz-lance-un-appel-doffres-pour-deux-fermes-eoliennes-de-100-mw-chacune/",
+      "titre_en": "Sonelgaz ER: tender for two 100 MW wind farms in Laghouat and Djelfa",
+      "resume_en": "The contract includes connection to the transmission grid; bids are due on 25 November 2026.",
+      "titre_ar": "سونلغاز للطاقات المتجددة: مناقصة لإنجاز مزرعتين للرياح بقدرة 100 ميغاواط في الأغواط والجلفة",
+      "resume_ar": "تشمل الصفقة الربط بشبكة النقل، ومن المنتظر إيداع العروض يوم 25 نوفمبر 2026."
     }
   ]
 }
